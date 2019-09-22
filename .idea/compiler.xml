@@ -7,6 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ccx-admin" />
+        <module name="ccx-common" />
+        <module name="ccx-framework" />
+        <module name="ccx-system" />
+        <module name="ccx-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

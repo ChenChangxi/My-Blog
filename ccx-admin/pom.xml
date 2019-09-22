@@ -8,6 +8,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <!--这里注意，一般Spring项目都打成war包，部署到Tomecat上，
+    但因为这里用的是-SpringBoot，内置了tomcat，因此需要打成
+    jar包。-->
+    <packaging>jar</packaging>
 
     <artifactId>admin</artifactId>
 
@@ -17,6 +21,13 @@
         ，所有的前端的html页面，js，jq，bootstrap等
         一些静态资源也都在这个模块中。
     </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>

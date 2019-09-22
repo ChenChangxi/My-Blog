@@ -16,4 +16,10 @@
         用的是SpringBoot，极大的简化了配置。
     </description>
 
+
+    <dependencies>
+
+
+    </dependencies>
+
 </project>

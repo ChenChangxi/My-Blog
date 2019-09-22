@@ -6,9 +6,13 @@
 
     <groupId>com.ccx</groupId>
     <artifactId>myblog</artifactId>
+    <!--父模块都打成pom-->
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <!--聚合的子模块，父模块不提供子模块间的相互通信子模
+    模块需要调用其他子模块需要引入依赖，每个子模块需要执行
+    打包命令，注册到maven仓库中-->
     <modules>
         <module>ccx-admin</module>
         <module>ccx-system</module>
@@ -26,6 +30,35 @@
         起。之所以选择SpringBoot我也是考率到后续可以用
         SpringCloud来扩展到分布式和高并发应用。
     </description>
+
+    <!--Maven的属性值管理，这里是为了统一管理各个模块的
+    版本，熟悉JavaEE开发的，被各种莫名其妙的bug给折磨过
+    人都知道版本控制问题有多么的重要。-->
+    <properties>
+        <ccx.version>1.0-SNAPSHOT</ccx.version>
+        <springboot.version>2.1.1.RELEASE</springboot.version>
+    </properties>
+
+    <!--它是一个依赖声明，它不引入具体的jar包，子模块需要
+    引入来使用具体的jar包，但不指定具体的版本，换而言之，
+    它其实提供的是一个统一版本管理功能。-->
+    <dependencyManagement>
+        <dependencies>
+            <!--这是引入SpringBoot依赖的一种方式，从parent(pom)当中导入
+            (import)dependencyManagement，还有一种是直接将SpringBoot
+            模块指定为父模块，然后在dependencies中引用。以下方法是专门为
+            dependencyManagement而设计的。-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${springboot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
 
 
 </project>

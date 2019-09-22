@@ -17,5 +17,9 @@
         测试框架我用的是Junit.
     </description>
 
-    
+    <dependencies>
+
+
+    </dependencies>
+
 </project>
