@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ccx-admin/ccx-admin.iml" filepath="$PROJECT_DIR$/ccx-admin/ccx-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccx-common/ccx-common.iml" filepath="$PROJECT_DIR$/ccx-common/ccx-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccx-framework/ccx-framework.iml" filepath="$PROJECT_DIR$/ccx-framework/ccx-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccx-system/ccx-system.iml" filepath="$PROJECT_DIR$/ccx-system/ccx-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccx-test/ccx-test.iml" filepath="$PROJECT_DIR$/ccx-test/ccx-test.iml" />
+    </modules>
+  </component>
+</project>

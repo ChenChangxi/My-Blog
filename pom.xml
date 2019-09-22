@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ccx</groupId>
+    <artifactId>myblog</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>ccx-admin</module>
+        <module>ccx-system</module>
+        <module>ccx-framework</module>
+        <module>ccx-common</module>
+        <module>ccx-test</module>
+    </modules>
+
+    <description>
+        这是我用SpringBoot写的一个博客，分为前端和后端。
+        这是后台管理系统，它用了MongoDB作为数据库，使用
+        了SpringMVC处理Web请求，并且我用了Maven的分模
+        块开发，把不同的模块抽象出来，极大的方便了开发，
+        最后通过Maven的聚合功能把不同的功能模块聚合在一
+        起。之所以选择SpringBoot我也是考率到后续可以用
+        SpringCloud来扩展到分布式和高并发应用。
+    </description>
+
+
+</project>

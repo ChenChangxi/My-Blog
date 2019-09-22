@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>myblog</artifactId>
+        <groupId>com.ccx</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>admin</artifactId>
+
+    <description>
+        这个模块提供web服务，用的是SpringMVC框架，负
+        责与前端页面交换数据，模版引擎选的是thymeleaf
+        ，所有的前端的html页面，js，jq，bootstrap等
+        一些静态资源也都在这个模块中。
+    </description>
+
+
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>myblog</artifactId>
+        <groupId>com.ccx</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>system</artifactId>
+
+    <description>
+        这是服务提供模块，负责具体的业务处理，数据库
+        我选的是MongoDB，它是一个分布式文件数据库，
+        是一种非关系型数据库（也就是Nosql），它能够
+        存储大型文件。而具体的ORM框架我选的是Mongo
+        DB-ORM。
+    </description>
+
+
+</project>
