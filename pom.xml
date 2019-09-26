@@ -14,11 +14,11 @@
     模块需要调用其他子模块需要引入依赖，每个子模块需要执行
     打包命令，注册到maven仓库中-->
     <modules>
-        <module>ccx-admin</module>
         <module>ccx-system</module>
         <module>ccx-framework</module>
         <module>ccx-common</module>
         <module>ccx-test</module>
+        <module>ccx-interact</module>
     </modules>
 
     <description>
@@ -56,9 +56,46 @@
                 <scope>import</scope>
             </dependency>
 
+            <!--在这里导入各个模块也是为了方便进行版本管理，在这里定义以后
+            ，在构建各个模块相互依赖时，就不用加版本号了，一切交给父模块的
+            dependencyManagement来进行管理-->
+
+            <!--导入admin模块-->
+            <dependency>
+                <groupId>com.ccx</groupId>
+                <artifactId>interact</artifactId>
+                <version>${ccx.version}</version>
+            </dependency>
+
+            <!--导入common模块-->
+            <dependency>
+                <groupId>com.ccx</groupId>
+                <artifactId>common</artifactId>
+                <version>${ccx.version}</version>
+            </dependency>
+
+            <!--导入system模块-->
+            <dependency>
+                <groupId>com.ccx</groupId>
+                <artifactId>system</artifactId>
+                <version>${ccx.version}</version>
+            </dependency>
+
+            <!--导入framework模块-->
+            <dependency>
+                <groupId>com.ccx</groupId>
+                <artifactId>framework</artifactId>
+                <version>${ccx.version}</version>
+            </dependency>
+
+            <!--导入test模块-->
+            <dependency>
+                <groupId>com.ccx</groupId>
+                <artifactId>test</artifactId>
+                <version>${ccx.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
-
-
 
 </project>

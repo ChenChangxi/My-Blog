@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/ccx-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/chen/pom.xml" />
       </set>
     </option>
   </component>

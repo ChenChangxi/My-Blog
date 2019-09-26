@@ -21,6 +21,11 @@
 
     <dependencies>
 
+        <!--导入一些常用的工具-->
+        <dependency>
+            <groupId>com.ccx</groupId>
+            <artifactId>common</artifactId>
+        </dependency>
 
     </dependencies>
 

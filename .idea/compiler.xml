@@ -6,20 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ccx-admin" />
         <module name="ccx-common" />
         <module name="ccx-framework" />
+        <module name="ccx-interact" />
         <module name="ccx-system" />
         <module name="ccx-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ccx-admin" target="1.5" />
+      <module name="chen" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ccx-admin" options="" />
+      <module name="ccx-common" options="" />
+      <module name="ccx-framework" options="" />
+      <module name="ccx-system" options="" />
+      <module name="ccx-test" options="" />
     </option>
   </component>
 </project>

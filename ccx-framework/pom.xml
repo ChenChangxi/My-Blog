@@ -19,6 +19,11 @@
 
     <dependencies>
 
+        <!---->
+        <dependency>
+            <groupId>com.ccx</groupId>
+            <artifactId>system</artifactId>
+        </dependency>
 
     </dependencies>
 
