@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--日志有以下几个级别，级别依次递减-->
+
+<!--OFF是最高级，表示关闭所有日志记录-->
+<!--FATAL(致命的)是有致命的错误导致整个程序的退出-->
+<!--ERROR是虽然发生错误，但不影响程序的继续运行-->
+<!--WARN表示潜在的错误信息，有些虽然不是错误，但要给程序员提示-->
+<!--INFO在粒度级别强调整个程序的运行过程，会打印出一些你感兴趣的信息-->
+<!--DEBUG是指在开发过程中打印的一些调试信息-->
+<!--TRACE是很低的日志级别，用于打印出整个执行和调试过程-->
+<!--ALL是最低级的日志等级，打开所有日志记录-->
+
+<!--Configuration后面的status,这个用于设置log4j2自身内部
+的信息输出,可以不设置,当设置成trace时,你会看到log4j2内部各
+种详细输出-->
+
+<!--monitorInterval：Log4j2能够自动检测修改配置 文件和重新
+配置本身,设置间隔秒数-->
+<configuration status="WARN" monitorInterval="1800">
+    <Properties>
+
+        <!--日志默认存放的位置-->
+        <property name="base">
+            /Users/apple/projects/Java Projects/myblog/log
+        </property>
+
+        <!-- 控制台显示的日志最低级别 -->
+        <property name="console_level">DEBUG</property>
+        <!-- 控制台默认输出格式,"%-5level":日志级别,"%l":
+        输出完整的错误位置,是小写的L,因为有行号显示,所以影响
+        日志输出的性能 -->
+        <property name="console_format">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] %l - %m%n
+        </property>
+
+        <!-- 日志文件默认输出格式,不带行号输出(行号显示会影响日
+        志输出性能);%C:大写,类名;%M:方法名;%m:错误信息;%n:换行-->
+        <property name="log_format">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] %C.%M - %m%n
+        </property>
+        <!-- 日志切割的最小单位 -->
+        <property name="log_size">20MB</property>
+        <!-- 日志默认输出级别 -->
+        <property name="log_level">DEBUG</property>
+
+        <!--每个级别日志文件放在哪个文件夹下-->
+        <property name="warn_name">${base}/warn</property>
+        <property name="rolling_name">${base}/rolling</property>
+        <property name="info_name">${base}/info</property>
+        <property name="error_name">${base}/error</property>
+
+        <!-- 日志默认压缩路径,将超过指定文件大小的日志,自动存入按
+        "年月"建立的文件夹下面并进行压缩,作为存档 -->
+        <property name="rolling_format">
+            ${rolling_name}/%d{yyyy-MM}/all-%d{yyyy-MM-dd}-%i.log.gz
+        </property>
+        <property name="info_format">
+            ${info_name}/%d{yyyy-MM}/info-%d{yyyy-MM-dd}-%i.log.gz
+        </property>
+        <property name="warn_format">
+            ${warn_name}/%d{yyyy-MM}/warn-%d{yyyy-MM-dd}-%i.log.gz
+        </property>
+        <property name="error_format">
+            ${error_name}/%d{yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log.gz
+        </property>
+
+        <!--日志文件夹下最多的文件数，默认为7个-->
+        <property name="rolling_max">50</property>
+        <property name="info_max">10</property>
+        <property name="warn_max">10</property>
+        <property name="error_max">10</property>
+
+    </Properties>
+
+    <!--定义appender，appender是附加的意思，我们可以看到，
+    再不加任何配置SpringBoot会输出一些日志，这就是SpringB
+    oot的默认日志，我们的日志管理是一些"附加"的日志管理-->
+    <appenders>
+
+        <!--我们想把日志输出到控制台和文件里，输出到控制台是con
+        sole输出到文件里面是RollingFile-->
+
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <!-- 设置控制台只输出level及以上级别的信息(onMatch),
+            其他的直接拒绝(onMismatch)-->
+            <ThresholdFilter level="${console_level}" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 设置输出格式,不设置默认为:%m%n -->
+            <PatternLayout pattern="${console_format}"/>
+        </Console>
+
+        <!-- 打印root中指定的level级别以上的日志到文件 -->
+        <RollingFile name="ROLLING" fileName="${rolling_name}" filePattern="${rolling_format}">
+            <PatternLayout pattern="${log_format}"/>
+            <SizeBasedTriggeringPolicy size="${log_size}"/>
+            <DefaultRolloverStrategy max="${rolling_max}" />
+            <Filters>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </RollingFile>
+
+        <!-- 打印INFO级别的日志到文件 -->
+        <RollingFile name="INFO" fileName="${info_name}" filePattern="${info_format}">
+            <PatternLayout pattern="${log_format}"/>
+            <SizeBasedTriggeringPolicy size="${log_size}"/>
+            <DefaultRolloverStrategy max="${info_max}" />
+            <!-- 匹配INFO级别，只输出info，warn及以上级别屏蔽，
+            ，OnMatch就是以上级别，Mis是以下级别，下同。-->
+            <Filters>
+                <ThresholdFilter level="WARN" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </RollingFile>
+
+        <!-- 打印WARN级别的日志到文件 -->
+        <RollingFile name="WARN" fileName="${warn_name}" filePattern="${warn_format}">
+            <PatternLayout pattern="${log_format}"/>
+            <SizeBasedTriggeringPolicy size="${log_size}"/>
+            <DefaultRolloverStrategy max="${warn_max}" />
+            <Filters>
+                <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </RollingFile>
+
+        <!-- 打印ERROR级别的日志到文件 -->
+        <RollingFile name="ERROR" fileName="${error_name}" filePattern="${error_format}">
+            <PatternLayout pattern="${log_format}"/>
+            <SizeBasedTriggeringPolicy size="${log_size}"/>
+            <DefaultRolloverStrategy max="${error_max}" />
+            <Filters>
+                <ThresholdFilter level="FATAL" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </RollingFile>
+    </appenders>
+
+    <!--然后定义logger,只有定义了logger并引入的
+    appender,appender才会生效-->
+    <loggers>
+
+        <!--过滤屏蔽掉Spring一些多余的DEBUG信息-->
+        <logger name="org.springframework" level="info" additivity="false">
+            <AppenderRef ref="CONSOLE"/>
+        </logger>
+
+        <!--建立一个默认的root的logger-->
+        <root level="${log_level}">
+            <appender-ref ref="ROLLING"/>
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="INFO"/>
+            <appender-ref ref="WARN"/>
+            <appender-ref ref="ERROR"/>
+        </root>
+    </loggers>
+</configuration>

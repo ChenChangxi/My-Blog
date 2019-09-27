@@ -14,7 +14,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CCXApplication {
 
     public static void main(String[] args) {
-
+        /**
+        *@Description: 启动SpringBoot内置的Tomcat
+        *@Param: [args]
+        *@return: void
+        *@Author: ChenChangxi
+        *@date: 2019-09-27
+        */
         SpringApplication.run(CCXApplication.class,args);
     }
 }
