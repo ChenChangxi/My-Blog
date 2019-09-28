@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--这里就体现出了SpringBoot的优势了，极大地减少了配置信息
+    ，用Spring的时候，首先要配置数据源，定义sqlSessionFactory
+    配置mapper事务等等，但springboot配置Mybatis回归到了ORM框
+    架的本质-->
+    <settings>
+        <setting name="cacheEnabled"             value="true" />  <!-- 全局映射器启用缓存 -->
+        <setting name="useGeneratedKeys"         value="true" />  <!-- 允许 JDBC 支持自动生成主键 -->
+        <setting name="defaultExecutorType"      value="REUSE" /> <!-- 配置默认的执行器 -->
+        <setting name="logImpl"                  value="SLF4J" /> <!-- 指定 MyBatis 所用日志的具体实现 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>  <!-- 驼峰命名法 -->
+    </settings>
+
+</configuration>

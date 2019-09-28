@@ -2,6 +2,7 @@ package com.ccx.framework.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
+import com.ccx.framework.properties.DruidProperties;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -28,21 +29,40 @@ import javax.sql.DataSource;
 @Configuration
 public class DruidConfig {
 
+    /**
+    *@Description: 将主数据源注入Spring容器
+    *@Param:
+     * DruidProperties
+    *@return:
+     * DruidProperties
+    *@Author: ChenChangxi
+    *@date: 2019-09-28
+    */
+
     @Bean
     @ConfigurationProperties("spring.datasource.druid.master")
-    public DataSource injectMasterDataSource() {
+    public DataSource injectMasterDataSource(DruidProperties druidProperties) {  //这里还不太懂，Spring会自己初始化参数吗？
 
         DruidDataSource dataSource = DruidDataSourceBuilder.create().build();
-
-
+        return druidProperties.setProperties(dataSource);
     }
 
+    /**
+    *@Description: 将从数据源注入Spring容器
+    *@Param:
+     * DruidProperties
+    *@return:
+     * DataSource
+    *@Author: ChenChangxi
+    *@date: 2019-09-28
+    */
 
     @Bean
     @ConfigurationProperties("spring.datasource.druid.slave")
     @ConditionalOnProperty(prefix = "spring.datasource.druid.slave",name="enabled",havingValue = "true")
-    public DataSource injectSlaveDataSource() {
+    public DataSource injectSlaveDataSource(DruidProperties druidProperties) {
 
         DruidDataSource dataSource = DruidDataSourceBuilder.create().build();
+        return druidProperties.setProperties(dataSource);
     }
 }

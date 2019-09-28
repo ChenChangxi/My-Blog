@@ -29,6 +29,10 @@ spring:
       test-on-return: false # 归还连接时检测，归还连接时的检测
       validation-query: SELECT 1 from DUAL # 用于对数据库的检测采用什么方法
 
+
+
+
+
   # 配置mongodb的数据库连接池
   data:
     mongodb:
