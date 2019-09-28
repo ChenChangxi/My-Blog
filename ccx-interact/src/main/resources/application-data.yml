@@ -4,11 +4,19 @@ spring:
     # 基本配置
     username: ChenChangxi
     password: QTSS.a000
-    url: jdbc:mysql://localhost:3306/message # 微博数据库
-    driver-class-name: com.mysql.jdbc.Driver
-    type: com.alibaba.druid.pool.DruidDataSource
     # 其他配置
     druid:
+      # 主数据源
+      master:
+        url: jdbc:mysql://localhost:3306/message # 微博数据库
+        driver-class-name: com.mysql.jdbc.Driver
+        type: com.alibaba.druid.pool.DruidDataSource
+      # 从数据源
+      slave:
+        enabled: false # 默认从数据库是关闭的
+        url:
+        username:
+        password:
       initial-size: 5 # 初始连接数为5
       min-idle: 10 # 最小连接数
       max-active: 20 # 最大连接数
@@ -16,6 +24,10 @@ spring:
       time-between-eviction-runs-millis: 60000 # 隔多久检查一次配置信息，关闭空闲的连接
       min-evictable-idle-time-millis: 30000 # 一个连接在连接池中最小生存时间
       max-evictable-idle-time-millis: 90000 # 一个连接在连接池中最大生存时间
+      test-on-borrow: false # 获取连接时检测，会影响性能
+      test-while-idle: true # 申请连接时检测，不会影响性能
+      test-on-return: false # 归还连接时检测，归还连接时的检测
+      validation-query: SELECT 1 from DUAL # 用于对数据库的检测采用什么方法
 
   # 配置mongodb的数据库连接池
   data:
