@@ -28,6 +28,13 @@
             <groupId>com.ccx</groupId>
             <artifactId>framework</artifactId>
         </dependency>
+
+        <!--选择thymeleag作为整个前后端交互的模版引擎-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
     </dependencies>
 
 

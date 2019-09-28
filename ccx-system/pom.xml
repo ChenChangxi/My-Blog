@@ -27,11 +27,14 @@
             <artifactId>common</artifactId>
         </dependency>
 
-        <!--MongoDB是一个分布式文件存储数据库，属于NoSQL，博客是
-        一篇一篇的文档，因此很明显不能用传统的SQL数据库来解决问题-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            <groupId>org.mongodb.morphia</groupId>
+            <artifactId>morphia</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
         </dependency>
 
     </dependencies>

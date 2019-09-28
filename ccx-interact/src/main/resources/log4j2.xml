@@ -88,13 +88,13 @@
             <PatternLayout pattern="${console_format}"/>
         </Console>
 
-        <!-- 打印root中指定的level级别以上的日志到文件 -->
+        <!-- 打印root中默认(这里是DEBUG)级别以上的日志到文件-->
         <RollingFile name="ROLLING" fileName="${rolling_name}" filePattern="${rolling_format}">
             <PatternLayout pattern="${log_format}"/>
             <SizeBasedTriggeringPolicy size="${log_size}"/>
             <DefaultRolloverStrategy max="${rolling_max}" />
             <Filters>
-                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+                <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
             </Filters>
         </RollingFile>
 

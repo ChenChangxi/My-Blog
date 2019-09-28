@@ -1,0 +1,27 @@
+spring:
+  # 配置sql的数据库连接池
+  datasource:
+    # 基本配置
+    username: ChenChangxi
+    password: QTSS.a000
+    url: jdbc:mysql://localhost:3306/message # 微博数据库
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    # 其他配置
+    druid:
+      initial-size: 5 # 初始连接数为5
+      min-idle: 10 # 最小连接数
+      max-active: 20 # 最大连接数
+      max-wait: 60000 # 获取配置最大等待时间
+      time-between-eviction-runs-millis: 60000 # 隔多久检查一次配置信息，关闭空闲的连接
+      min-evictable-idle-time-millis: 30000 # 一个连接在连接池中最小生存时间
+      max-evictable-idle-time-millis: 90000 # 一个连接在连接池中最大生存时间
+
+  # 配置mongodb的数据库连接池
+  data:
+    mongodb:
+      username: ChenChangxi
+      password: QTSS.a000
+      host: 127.0.0.1
+      port: 27017
+      database: markdown  # 博客数据库，用markdown写的

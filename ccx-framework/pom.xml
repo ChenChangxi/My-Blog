@@ -25,6 +25,36 @@
             <artifactId>system</artifactId>
         </dependency>
 
+        <!--MongoDB是一个分布式文件存储数据库，属于NoSQL，博客是
+        一篇一篇的文档，因此很明显不能用传统的SQL数据库来解决问题-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+        </dependency>
+
+        <!--springboot的log4j模块，这里注意版本问题，
+        springboot2.x支持log4j2，不支持log4j-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+        <!--springboot的aop功能(面向切面编程)-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>
