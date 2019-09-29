@@ -65,7 +65,8 @@
 
             <!--项目还是需要sql数据库的，因为在顶层设计中有关于
             类似于微博的功能，不用像博客那样需要的大型分布式文件
-            管理数据库，只是用普通的sql数据库即可-->
+            管理数据库，只是用普通的sql数据库即可。同时，sql数据
+            库最重要的功能还是权限控制，shiro需要五张sql的表-->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>

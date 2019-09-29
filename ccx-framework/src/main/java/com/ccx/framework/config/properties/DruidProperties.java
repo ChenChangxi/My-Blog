@@ -1,11 +1,11 @@
-package com.ccx.framework.properties;
+package com.ccx.framework.config.properties;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @program: com.ccx.framework.properties
+ * @program: com.ccx.framework.config.properties
  * @description: 这是属于主从datasource共有的一些信息
  * @authhor: ChenChangxi
  * @create: 2019-09-28 17:21
