@@ -16,10 +16,9 @@
         用的是SpringBoot，极大的简化了配置。
     </description>
 
-
     <dependencies>
 
-        <!---->
+        <!--system系统模块-->
         <dependency>
             <groupId>com.ccx</groupId>
             <artifactId>system</artifactId>
@@ -32,11 +31,13 @@
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
 
+        <!--mysql数据库-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+        <!--数据库连接池-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
@@ -55,9 +56,25 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
+        <!--shiro的一些框架-->
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-spring</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-ehcache</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.theborakompanioni</groupId>
+            <artifactId>thymeleaf-extras-shiro</artifactId>
         </dependency>
 
     </dependencies>

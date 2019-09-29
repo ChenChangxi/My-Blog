@@ -42,6 +42,7 @@
         <mybatis.version>1.3.0</mybatis.version>
         <morphia.version>1.1.1</morphia.version>
         <shiro.version>1.4.0</shiro.version>
+        <shiro.thymeleaf.version>2.0.0</shiro.thymeleaf.version>
         <pagehelper.version>1.2.5</pagehelper.version>
     </properties>
 
@@ -106,11 +107,40 @@
                 <version>${morphia.version}</version>
             </dependency>
 
-            <!--导入shiro框架，它是专门负责权限控制的一个框架-->
+            <!--导入shiro框架，它是专门负责权限控制的一个框架，熟悉
+            数据库开发的朋友对权限控制的重要性一定深有体会-->
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-core</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+
+            <!--shiro框架与spring框架结合，用spring来管理shiro-->
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-spring</artifactId>
                 <version>${shiro.version}</version>
+            </dependency>
+
+            <!--shiro用encache，熟悉hibernate二级缓存的朋友对en
+            cache应该很熟悉了，这里引入缓存是为了管理用户，角色，权
+            限的缓存的，这些信息很少改变，可以提高用户访问性能。-->
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-ehcache</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+
+            <!--shiro与thymeleaf模版引擎相结合。我们知道一个用户
+            对一个网站的一次访问被称为是一次会话(session)，在浏览
+            器上是cookie，而用户所请求的所有数据(ajax)都是通过会话
+            来管理的，shiro也提供了管理会话的功能，因此shiro必须与
+            前端相结合，在前端和后端，在一个用户的访问周期内对用户的
+            访问权限进行全方位的控制。-->
+            <dependency>
+                <groupId>com.github.theborakompanioni</groupId>
+                <artifactId>thymeleaf-extras-shiro</artifactId>
+                <version>${shiro.thymeleaf.version}</version>
             </dependency>
 
             <!--在这里导入各个模块也是为了方便进行版本管理，在这里定义以后
