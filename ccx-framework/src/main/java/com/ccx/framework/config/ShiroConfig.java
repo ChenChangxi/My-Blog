@@ -20,6 +20,19 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ShiroConfig {
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**
     *@Description: 将userrealm注入Spring容器。
     *@Param:

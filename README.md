@@ -1,0 +1,8 @@
+#我的博客
+
+
+这个博客是用SpringBoot搭建起来的，前端用Vue+Webpack，数据库用的是分布式文件存储数据库MongoDB，ORM框架用的是Morphia，
+然后用mysql数据库来进行权限验证，ORM框架用的Mybatis，Web层框架用的是SpringMVC，模版引擎用的是thymeleaf，配合jquery，
+bootstrap等框架进行模版渲染，然后最后是一个大的前端项目，用的是Vue+Webpack，安全权限框架用的是shiro。 用SpringBoot主
+要考虑到后面可以扩展到SpringCloud，做一个完整的大型分布式高并发应用
+
