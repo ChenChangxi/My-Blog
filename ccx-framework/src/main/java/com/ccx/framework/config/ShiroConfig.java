@@ -6,7 +6,9 @@ import org.apache.shiro.cache.ehcache.EhCacheManager;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
+import org.apache.shiro.web.mgt.CookieRememberMeManager;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -21,10 +23,7 @@ import org.springframework.context.annotation.Configuration;
 public class ShiroConfig {
 
 
-
-
-
-
+    @Value("${shiro.}")
 
 
 
@@ -69,6 +68,24 @@ public class ShiroConfig {
 
 
         return ehCacheManager;
+    }
+
+    /**
+    *@Description: 配置cookie，使cookie能够记住用户的一些信息
+    *@Param:
+     * param:参数
+    *@return:
+     * CookieRememberMeManager
+    *@Author: ChenChangxi
+    *@date: 2019-09-30
+    */
+
+    @Bean
+    public CookieRememberMeManager rememberMeManager() {
+
+        CookieRememberMeManager rememberMeManager = new CookieRememberMeManager();
+
+        return rememberMeManager;
     }
 
     /**
