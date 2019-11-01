@@ -20,9 +20,7 @@
     <Properties>
 
         <!--日志默认存放的位置-->
-        <property name="base">
-            /Users/apple/projects/Java Projects/myblog/log
-        </property>
+        <property name="base">/Users/apple/projects/Java Projects/myblog/log</property>
 
         <!-- 控制台显示的日志最低级别 -->
         <property name="console_level">DEBUG</property>

@@ -26,14 +26,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <!--我们要用log4j来记录日志，需要排除springboot本身的
             log模块，引入log4j模块，否则项目会报错-->
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-logging</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
-
     </dependencies>
 
 </project>

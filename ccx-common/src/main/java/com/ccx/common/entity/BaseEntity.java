@@ -9,5 +9,23 @@ package com.ccx.common.entity;
 
 public class BaseEntity {
 
+    private int id;
 
+    private String ping;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getPing() {
+        return ping;
+    }
+
+    public void setPing(String ping) {
+        this.ping = ping;
+    }
 }

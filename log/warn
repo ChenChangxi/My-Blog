@@ -1,0 +1,178 @@
+2019-10-31 10:37:35.071 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 10:37:38.051 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-31 11:40:25.477 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 11:40:28.097 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-31 11:42:27.408 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 11:42:29.916 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-31 11:56:13.820 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 11:56:14.625 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 12:22:02.891 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 13:00:13.340 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 13:00:14.526 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:00:30.091 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:01:08.380 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:01:09.164 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:02:49.381 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:02:50.267 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:04:33.570 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:04:34.696 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:07:32.801 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:07:33.694 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:09:44.838 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:09:45.451 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:15:35.940 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:15:36.742 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:15:46.451 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:15:48.977 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-31 16:16:19.080 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:16:19.879 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:16:20.183 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:16:20.528 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:16:20.776 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:16:21.004 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:16:21.239 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:16:21.429 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:18:59.952 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:00.841 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:01.264 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:01.477 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:01.716 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:01.941 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:02.158 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:02.353 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:36.133 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:36.844 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:37.153 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:37.430 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:37.677 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:37.969 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:38.209 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:19:38.430 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:20:11.500 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:20:14.236 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-31 16:20:53.378 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:20:54.070 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:21:19.584 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:21:20.258 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:21:20.598 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:21:20.858 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:21:21.103 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:21:21.309 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:21:21.528 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:21:21.748 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:22:35.217 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:22:36.256 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:22:36.576 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:22:36.848 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:22:37.065 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:22:37.284 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:22:37.522 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:22:37.751 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:25:16.355 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:25:17.070 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:25:17.348 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:25:17.656 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:26:45.131 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:26:46.128 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:26:46.450 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:26:46.667 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:26:46.924 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:26:47.134 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:26:47.359 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:26:47.554 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:48:19.431 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:48:20.881 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:48:21.518 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:48:21.887 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:48:22.251 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:48:22.637 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:48:22.896 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 16:48:23.161 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 17:11:56.148 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.junit.MaBatis.Mapper]' package. Please check your configuration.
+2019-10-31 17:12:38.446 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.junit.MaBatis.Mapper]' package. Please check your configuration.
+2019-10-31 17:15:49.002 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.mapper]' package. Please check your configuration.
+2019-10-31 17:32:38.884 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.mapper]' package. Please check your configuration.
+2019-10-31 21:08:14.428 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 21:08:14.604 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 22:36:50.689 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 22:36:50.980 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 22:37:54.125 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 22:37:54.359 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 22:38:53.590 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 22:38:53.848 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 23:11:20.097 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 23:11:20.330 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 23:23:46.448 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 23:23:46.766 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 23:28:48.471 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 23:28:48.809 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 23:38:56.976 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 23:38:57.322 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 23:45:38.327 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 23:45:38.624 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 23:46:51.218 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 23:46:51.551 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 23:48:57.059 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 23:48:57.368 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 23:49:26.981 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 23:49:27.157 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-10-31 23:55:50.446 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-10-31 23:55:50.834 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 00:14:30.809 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 00:14:31.193 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 00:18:12.932 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 00:18:13.184 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 00:19:10.726 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 00:19:10.967 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 00:27:04.630 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 00:27:04.873 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 00:28:03.301 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 00:28:03.562 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 00:28:59.168 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 00:28:59.454 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 14:41:40.239 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 14:41:40.505 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 14:49:24.767 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 14:49:24.947 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 14:51:17.908 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 14:51:18.165 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 14:52:14.459 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 14:52:14.662 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 14:53:15.582 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 14:53:15.798 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 14:57:30.899 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 14:58:15.955 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.*.*.mapper]' package. Please check your configuration.
+2019-11-01 14:58:16.222 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 14:58:18.991 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 14:59:18.458 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:00:35.260 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:01:18.279 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:01:46.475 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:02:53.051 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:10:35.711 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:16:05.230 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:23:27.861 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:24:25.697 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:24:53.154 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:25:52.635 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 15:26:52.184 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 16:23:20.030 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:23:20.918 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:23:21.272 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:23:21.539 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:23:21.786 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:23:22.005 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:23:22.226 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:23:22.422 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:24:09.437 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:24:11.939 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 16:25:33.539 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:25:36.213 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-01 16:25:53.482 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:25:54.160 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:25:54.484 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:25:54.717 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:25:54.945 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:25:55.167 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:25:55.404 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-01 16:25:55.591 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.

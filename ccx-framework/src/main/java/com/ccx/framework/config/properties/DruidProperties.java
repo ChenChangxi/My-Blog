@@ -2,7 +2,11 @@ package com.ccx.framework.config.properties;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.stereotype.Component;
 
 /**
  * @program: com.ccx.framework.config.properties
@@ -11,42 +15,44 @@ import org.springframework.context.annotation.Configuration;
  * @create: 2019-09-28 17:21
  **/
 
-@Configuration
+@Component
+@PropertySource("classpath:application-data.yml")
+@ConfigurationProperties(prefix = "spring.datasource.druid")
 public class DruidProperties {
 
     /*
     * 这里注意，@Value这个注解是用来读取外部的配置文件的，
     * 然后把文件中配置的值注入给属性
     * */
-    @Value("${spring.datasource.druid.initial-size}")
-    private int initialSize;
+    @Value("${initial-size}")
+    private int initialSize=100;
 
-    @Value("${spring.datasource.druid.min-idle}")
-    private int minIdle;
+    @Value("${min-idle}")
+    private int minIdle=100;
 
-    @Value("${spring.datasource.druid.max-active}")
-    private int maxActive;
+    @Value("${max-active}")
+    private int maxActive=100;
 
-    @Value("${spring.datasource.druid.max-wait}")
-    private int maxWait;
+    @Value("${max-wait}")
+    private int maxWait=100;
 
-    @Value("${spring.datasource.druid.time-between-eviction-runs-millis}")
-    private int timeBetweenEvictionRunsMillis;
+    @Value("${time-between-eviction-runs-millis}")
+    private int timeBetweenEvictionRunsMillis=100;
 
-    @Value("${spring.datasource.druid.min-evictable-idle-time-millis}")
-    private int minEvictableIdleTimeMillis;
+    @Value("${min-evictable-idle-time-millis}")
+    private int minEvictableIdleTimeMillis=100;
 
-    @Value("${spring.datasource.druid.max-evictable-idle-time-millis}")
-    private int maxEvictableIdleTimeMillis;
+    @Value("${max-evictable-idle-time-millis}")
+    private int maxEvictableIdleTimeMillis=100;
 
-    @Value("${spring.datasource.druid.test-on-borrow}")
-    private boolean testOnBorrow;
+    @Value("${test-on-borrow}")
+    private boolean testOnBorrow=false;
 
-    @Value("${spring.datasource.druid.test-while-idle}")
-    private boolean testWhileIdle;
+    @Value("${test-while-idle}")
+    private boolean testWhileIdle=true;
 
-    @Value("${spring.datasource.druid.test-on-return}")
-    private boolean testOnReturn;
+    @Value("${test-on-return}")
+    private boolean testOnReturn=false;
 
     /**
     *@Description: 为数据源设置属性，配置数据源的一部分属性

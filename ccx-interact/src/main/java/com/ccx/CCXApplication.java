@@ -1,16 +1,21 @@
-package com.ccx.interact;
+package com.ccx;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
  * @program: com.ccx.interact
- * @description: 这是SpringBoot的启动类
+ * @description: 这是SpringBoot的启动类，它会自动扫描
+ * 它下层的配置类，如果配置类不在它的下层，则必须用compo
+ * nentScan来进行扫包。
  * @authhor: ChenChangxi
  * @create: 2019-09-26 17:59
  **/
 
-@SpringBootApplication
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+//@MapperScan("com.ccx.*.*.mapper")
 public class CCXApplication {
 
     public static void main(String[] args) {

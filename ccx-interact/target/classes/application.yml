@@ -1,0 +1,31 @@
+# 日志配置
+logging:
+  config: classpath:log4j2.xml
+  level:
+    com.ccx: debug
+    org.springframework: trace
+# 配置mybatis框架
+mybatis:
+  config-location: classpath:mybatis.xml # classpath的意思是搜索当前路径，找到mybatis的配置文件。
+  mapper-locations: classpath*:mapper/**/*Mapper.xml # 这里注意，classpath加*的意思是搜索所有路径，**是任意目录。
+  type-aliases-package: com.ccx #搜索的包名
+# 配置thymeleaf模版引擎和springmvc框架
+spring:
+  thymeleaf:
+    prefix: classpath:/templates  # 模版默认的路径
+    suffix: .html   # 模版引擎的后缀
+    cache: false   # 模版引擎的缓存一定要清掉，否则前端会出现莫名其妙的问题
+    encoding: utf-8  # 编码方式，要和html的编码方式相同
+    mode: HTML5  # html4和html5不一样，这里要注意
+  mvc:
+    view:
+      prefix:   # 视图解析器的路径
+      suffix:   # 视图解析器解析的视图的后缀
+
+  profiles:
+    active: data
+
+
+
+
+

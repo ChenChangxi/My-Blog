@@ -10,11 +10,11 @@
         <module name="ccx-framework" />
         <module name="ccx-interact" />
         <module name="ccx-system" />
-        <module name="ccx-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ccx-admin" target="1.5" />
+      <module name="ccx-test" target="1.5" />
       <module name="chen" target="1.5" />
     </bytecodeTargetLevel>
   </component>
