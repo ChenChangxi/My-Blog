@@ -13,7 +13,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 public interface TestMapper {
 
-    public String select(int id);
+    public BaseEntity select(int id);
 
     public void insert(BaseEntity baseEntity);
 
