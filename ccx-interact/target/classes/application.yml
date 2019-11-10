@@ -7,8 +7,8 @@ logging:
 # 配置mybatis框架
 mybatis:
   config-location: classpath:mybatis.xml # classpath的意思是搜索当前路径，找到mybatis的配置文件。
-  mapper-locations: classpath*:mapper/**/*Mapper.xml # 这里注意，classpath加*的意思是搜索所有路径，**是任意目录。
-  type-aliases-package: com.ccx #搜索的包名
+  type-aliases-package: com.ccx.common.entity #搜索的包名
+  mapper-locations: classpath:/mapper/*Mapper.xml
 # 配置thymeleaf模版引擎和springmvc框架
 spring:
   thymeleaf:
@@ -22,6 +22,7 @@ spring:
       prefix:   # 视图解析器的路径
       suffix:   # 视图解析器解析的视图的后缀
 
+  #注意，这个很重要，它决定了后缀为xx-data.yml的配置文件会生效
   profiles:
     active: data
 

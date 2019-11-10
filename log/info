@@ -1,865 +1,233 @@
-2019-10-31 10:37:33.516 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 8463 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 10:37:33.521 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 10:37:36.605 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 10:37:36.619 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 10:37:36.620 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 10:37:36.640 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 10:37:36.832 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 10:37:38.662 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
-2019-10-31 10:37:38.698 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Using a shared selector for servlet write/read
-2019-10-31 10:37:38.726 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started CCXApplication in 6.254 seconds (JVM running for 7.772)
-2019-10-31 11:40:24.142 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting MybatisTest on MacBook-Pro.local with PID 8965 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 11:40:24.144 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 11:40:28.979 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started MybatisTest in 5.72 seconds (JVM running for 7.541)
-2019-10-31 11:42:25.921 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting MybatisTest on MacBook-Pro.local with PID 8985 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 11:42:25.923 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 11:42:30.833 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started MybatisTest in 5.769 seconds (JVM running for 7.567)
-2019-10-31 11:56:13.024 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9118 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 11:56:13.027 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 11:56:14.414 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9118 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 11:56:14.415 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 11:57:31.353 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9133 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 11:57:31.356 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 11:57:32.133 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9133 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 11:57:32.135 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 11:58:45.844 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9145 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 11:58:45.846 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 11:58:46.411 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9145 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 11:58:46.412 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:00:31.789 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9162 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:00:31.793 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:00:32.510 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9162 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:00:32.510 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:00:46.040 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9167 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:00:46.045 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:00:46.551 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9167 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:00:46.553 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:01:50.546 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9184 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:01:50.549 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:02:35.820 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9193 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:02:35.823 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:02:36.419 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9193 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:02:36.420 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:03:28.185 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9201 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:03:28.187 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:03:28.852 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9201 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:03:28.855 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:05:15.002 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9217 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:05:15.014 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:05:15.811 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9217 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:05:15.811 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:05:43.058 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9224 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:05:43.060 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:05:43.685 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9224 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:05:43.686 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:06:55.925 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9238 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:06:55.927 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:06:56.748 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9238 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:06:56.749 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:07:11.434 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9244 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:07:11.440 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:07:12.091 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9244 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:07:12.092 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:09:27.279 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9272 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:09:27.290 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:09:27.918 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9272 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:09:27.921 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:09:53.818 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9279 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:09:53.819 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:09:54.416 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9279 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:09:54.417 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:20:01.525 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9356 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:20:01.526 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:20:02.243 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9356 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:20:02.244 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:21:01.658 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9367 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:21:01.659 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:21:47.229 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9378 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:21:47.230 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:22:02.087 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9383 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:22:02.088 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:24:33.091 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9436 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:24:33.092 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:24:33.804 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9436 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:24:33.805 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 12:31:04.944 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9499 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:31:04.949 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:31:05.638 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9499 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:31:05.638 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:33:39.047 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9525 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:33:39.049 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:33:39.744 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9525 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:33:39.745 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:34:46.439 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9538 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:34:46.440 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:34:47.263 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9538 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:34:47.263 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:35:05.891 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9545 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:35:05.892 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:35:06.523 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9545 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:35:06.524 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:36:31.952 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9570 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:36:31.955 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:36:32.857 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9570 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:36:32.858 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:39:15.199 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9604 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:39:15.200 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:39:15.923 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9604 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:39:15.925 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:40:10.259 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9614 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:40:10.261 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:40:10.945 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9614 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:40:10.946 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:51:01.974 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9691 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:51:01.975 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:51:02.788 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9691 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:51:02.788 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:55:01.506 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9722 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:55:01.508 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:55:02.236 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9722 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:55:02.237 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:56:46.158 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9740 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:56:46.161 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 12:56:47.232 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9740 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 12:56:47.233 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 13:00:12.340 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9765 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 13:00:12.341 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 13:00:14.298 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 9765 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 13:00:14.299 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:00:29.288 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 10932 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:00:29.289 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:01:07.634 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 10941 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:01:07.635 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:01:09.001 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 10941 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:01:09.002 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:02:48.552 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 10957 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:02:48.553 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:02:50.104 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 10957 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:02:50.105 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:04:32.502 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 10972 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:04:32.503 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:04:34.537 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 10972 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:04:34.537 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:07:32.041 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11001 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:07:32.042 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:07:33.531 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11001 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:07:33.532 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:09:44.144 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11034 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:09:44.147 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:09:45.331 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11034 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:09:45.332 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:15:35.122 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11095 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:15:35.124 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:15:36.556 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11095 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:15:36.556 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:15:44.980 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 11099 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 16:15:44.981 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:15:47.854 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 16:15:47.867 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 16:15:47.868 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 16:15:47.881 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 16:15:48.011 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 16:15:49.629 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
-2019-10-31 16:15:49.660 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Using a shared selector for servlet write/read
-2019-10-31 16:15:49.707 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started CCXApplication in 5.764 seconds (JVM running for 6.887)
-2019-10-31 16:16:18.277 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11107 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:16:18.279 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:16:19.719 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11107 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:16:19.720 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:16:20.102 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11107 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:16:20.102 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:16:20.433 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11107 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:16:20.434 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:16:20.685 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11107 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:16:20.686 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:16:20.932 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11107 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:16:20.933 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:16:21.162 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11107 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:16:21.162 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:16:21.367 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11107 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:16:21.368 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:18:59.013 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11141 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:18:59.016 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:00.710 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11141 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:00.711 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:01.177 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11141 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:01.178 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:01.399 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11141 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:01.399 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:01.641 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11141 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:01.642 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:01.873 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11141 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:01.874 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:02.086 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11141 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:02.086 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:02.272 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11141 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:02.273 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:35.311 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11152 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:35.314 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:36.736 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11152 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:36.737 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:37.055 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11152 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:37.056 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:37.313 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11152 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:37.314 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:37.585 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11152 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:37.586 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:37.901 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11152 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:37.902 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:38.118 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11152 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:38.119 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:19:38.371 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11152 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:19:38.371 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:20:10.329 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 11161 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 16:20:10.331 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:20:13.066 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 16:20:13.079 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 16:20:13.080 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 16:20:13.094 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 16:20:13.212 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 16:20:14.860 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
-2019-10-31 16:20:14.892 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Using a shared selector for servlet write/read
-2019-10-31 16:20:14.917 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started CCXApplication in 5.701 seconds (JVM running for 6.827)
-2019-10-31 16:20:52.630 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11167 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:20:52.632 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:20:53.961 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11167 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:20:53.962 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: local
-2019-10-31 16:21:18.881 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11172 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:21:18.884 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:21:20.118 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11172 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:21:20.120 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:21:20.515 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11172 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:21:20.516 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:21:20.759 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11172 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:21:20.760 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:21:21.026 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11172 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:21:21.026 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:21:21.234 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11172 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:21:21.234 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:21:21.458 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11172 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:21:21.458 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:21:21.664 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11172 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:21:21.664 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:22:34.391 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11188 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:22:34.393 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:22:35.996 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11188 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:22:35.997 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:22:36.494 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11188 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:22:36.494 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:22:36.736 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11188 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:22:36.736 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:22:36.995 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11188 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:22:36.996 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:22:37.217 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11188 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:22:37.217 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:22:37.431 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11188 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:22:37.432 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:22:37.660 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11188 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:22:37.661 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:25:15.574 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11214 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:25:15.579 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:25:16.923 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11214 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:25:16.924 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:25:17.249 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11214 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:25:17.249 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:25:17.539 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11214 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:25:17.541 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:26:44.263 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11230 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:26:44.278 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:26:46.001 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11230 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:26:46.001 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:26:46.348 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11230 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:26:46.349 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:26:46.589 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11230 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:26:46.590 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:26:46.841 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11230 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:26:46.842 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:26:47.061 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11230 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:26:47.062 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:26:47.276 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11230 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:26:47.277 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:26:47.483 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11230 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:26:47.483 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:47:03.285 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11387 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:47:03.320 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:47:04.354 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.917 seconds (JVM running for 4.047)
-2019-10-31 16:48:18.762 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11400 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:48:18.763 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:48:20.500 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11400 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:48:20.503 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:48:21.339 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11400 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:48:21.344 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:48:21.754 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11400 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:48:21.755 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:48:22.108 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11400 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:48:22.109 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:48:22.526 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11400 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:48:22.527 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:48:22.817 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11400 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:48:22.817 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:48:23.061 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11400 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:48:23.062 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:48:40.396 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11406 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:48:40.397 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:48:41.548 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 2.069 seconds (JVM running for 3.975)
-2019-10-31 16:50:31.619 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11426 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:50:31.624 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:50:32.743 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.994 seconds (JVM running for 4.118)
-2019-10-31 16:52:45.308 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11451 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:52:45.310 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:52:46.387 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.977 seconds (JVM running for 4.203)
-2019-10-31 16:53:22.913 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11461 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:53:22.918 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:53:23.963 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.921 seconds (JVM running for 3.901)
-2019-10-31 16:54:05.837 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11469 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:54:05.840 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:54:06.916 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.974 seconds (JVM running for 3.882)
-2019-10-31 16:54:31.413 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11476 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:54:31.424 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:54:32.539 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 2.083 seconds (JVM running for 3.823)
-2019-10-31 16:55:29.720 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11485 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:55:29.722 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:55:31.132 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 2.107 seconds (JVM running for 3.771)
-2019-10-31 16:58:10.713 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11508 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:58:10.715 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:58:12.137 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 2.137 seconds (JVM running for 3.808)
-2019-10-31 16:59:11.292 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11519 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 16:59:11.295 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 16:59:13.195 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 2.502 seconds (JVM running for 4.104)
-2019-10-31 17:10:31.829 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11624 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 17:10:31.840 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:10:32.902 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.98 seconds (JVM running for 4.287)
-2019-10-31 17:11:55.766 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11639 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 17:11:55.767 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:11:56.466 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.098 seconds (JVM running for 2.584)
-2019-10-31 17:12:37.905 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11647 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 17:12:37.908 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:12:38.824 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.695 seconds (JVM running for 3.989)
-2019-10-31 17:13:44.341 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11668 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 17:13:44.343 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:13:45.556 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 2.182 seconds (JVM running for 4.096)
-2019-10-31 17:15:48.310 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11686 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 17:15:48.311 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:15:49.776 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.962 seconds (JVM running for 3.718)
-2019-10-31 17:18:07.471 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11705 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-test)
-2019-10-31 17:18:07.498 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:18:08.789 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 2.247 seconds (JVM running for 4.87)
-2019-10-31 17:32:38.494 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11869 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 17:32:38.496 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:32:39.177 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.399 seconds (JVM running for 4.664)
-2019-10-31 17:33:16.621 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11879 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 17:33:16.626 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:33:17.644 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11879 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 17:33:17.645 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:33:39.537 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11886 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 17:33:39.538 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:33:40.646 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 11886 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 17:33:40.649 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:59:32.259 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12068 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 17:59:32.261 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 17:59:33.195 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12068 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 17:59:33.198 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:29:20.703 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12322 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:29:20.709 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:29:21.757 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12322 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:29:21.757 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:31:23.616 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12338 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:31:23.621 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:31:24.743 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12338 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:31:24.744 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:38:19.253 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12410 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:38:19.256 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:38:20.378 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12410 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:38:20.379 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:39:09.491 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12419 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:39:09.494 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:39:11.253 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12419 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:39:11.257 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:40:15.707 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12430 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:40:15.709 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:40:17.020 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12430 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:40:17.022 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:44:16.196 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12463 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:44:16.198 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:44:17.513 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12463 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:44:17.516 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:45:51.648 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12477 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:45:51.650 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:45:52.658 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 1.956 seconds (JVM running for 4.342)
-2019-10-31 18:46:45.675 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12494 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:46:45.678 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:46:46.800 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12494 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:46:46.801 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:54:55.226 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12568 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:54:55.229 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 18:54:56.231 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 12568 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 18:54:56.232 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 19:14:01.093 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 12738 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:14:01.094 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 19:17:02.790 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 12762 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:17:02.793 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 19:20:38.973 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 12790 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:20:38.974 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 19:26:54.415 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 12836 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:26:54.417 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 19:33:38.280 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 12950 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:33:38.282 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 19:34:25.105 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 12965 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:34:25.107 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 19:40:48.411 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13029 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:40:48.412 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 19:41:36.873 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13037 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:41:36.878 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 19:42:30.745 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13047 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:42:30.761 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 19:45:43.701 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13077 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:45:43.715 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 19:46:55.931 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13090 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:46:55.934 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 19:47:38.644 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13100 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:47:38.652 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 19:48:39.349 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13113 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:48:39.351 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 19:56:16.217 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13172 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:56:16.221 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 19:57:28.722 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13188 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 19:57:28.723 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 20:03:35.373 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13238 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 20:03:35.463 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 20:05:43.307 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13262 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 20:05:43.312 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 20:11:39.913 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13310 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 20:11:39.915 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 20:13:26.498 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13325 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 20:13:26.502 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 20:16:20.861 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13356 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 20:16:20.864 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 20:19:05.954 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13382 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 20:19:05.956 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 20:19:37.768 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13393 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 20:19:37.771 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 20:25:02.317 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13432 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 20:25:02.320 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 20:26:27.803 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13444 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 20:26:27.805 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 20:58:47.353 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13694 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 20:58:47.357 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:04:00.003 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 13731 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:04:00.031 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:04:00.989 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 13731 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:04:00.992 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:04:01.254 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 13731 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:04:01.256 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:04:01.417 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 13731 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:04:01.419 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:04:01.596 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 13731 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:04:01.597 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:04:01.801 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 13731 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:04:01.803 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:04:01.969 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 13731 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:04:01.971 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:04:02.127 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 13731 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:04:02.128 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:04:32.958 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13738 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:04:32.961 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:06:55.787 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13784 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:06:55.791 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:07:32.459 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13792 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:07:32.463 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:08:01.710 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13799 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:08:01.724 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:08:13.284 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 13804 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 21:08:13.288 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:08:15.966 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 21:08:15.978 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 21:08:15.979 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 21:08:15.991 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 21:08:16.134 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 21:08:16.370 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 21:09:10.775 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 13812 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:09:10.779 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:39:12.802 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14045 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:39:12.807 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:39:55.493 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14054 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:39:55.501 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:43:43.429 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14088 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:43:43.435 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:52:09.674 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14189 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:52:09.684 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:53:33.647 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14203 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:53:33.650 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:55:27.059 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14219 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:55:27.061 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 21:57:28.806 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14236 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 21:57:28.808 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 22:15:16.276 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14399 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:15:16.278 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 22:26:27.211 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14483 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:26:27.213 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 22:26:51.196 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14490 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:26:51.198 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 22:27:58.895 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14500 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:27:58.897 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 22:28:48.736 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14509 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:28:48.739 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 22:29:25.427 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14517 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:29:25.430 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 22:29:52.667 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14524 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:29:52.669 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 22:31:02.301 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14536 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:31:02.304 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 22:36:49.868 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 14575 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 22:36:49.871 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 22:36:52.147 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 22:36:52.157 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 22:36:52.157 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 22:36:52.164 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 22:36:52.246 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 22:36:52.473 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 22:37:53.373 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 14586 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 22:37:53.382 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 22:37:55.433 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 22:37:55.441 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 22:37:55.441 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 22:37:55.446 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 22:37:55.530 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 22:37:55.884 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 22:38:52.749 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 14595 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 22:38:52.750 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 22:38:54.934 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 22:38:54.966 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 22:38:54.967 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 22:38:54.978 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 22:38:55.083 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 22:38:55.491 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 22:39:03.485 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14599 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:39:03.487 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 22:40:45.396 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14613 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:40:45.399 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 22:42:50.711 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14629 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:42:50.712 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 22:48:40.018 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14671 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:48:40.019 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 22:49:43.902 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14686 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 22:49:43.904 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:03:12.210 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14796 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 23:03:12.254 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 23:03:33.926 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14803 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 23:03:33.928 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:04:56.440 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14815 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 23:04:56.441 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:06:04.857 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14827 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 23:06:04.861 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:08:24.977 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14847 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 23:08:24.979 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:09:59.722 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14861 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 23:09:59.724 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:11:06.877 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 14872 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-10-31 23:11:06.888 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:11:19.016 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 14876 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 23:11:19.018 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:11:21.784 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 23:11:21.796 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 23:11:21.797 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 23:11:21.808 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 23:11:21.927 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 23:11:22.349 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 23:23:45.161 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 14994 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 23:23:45.163 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:23:48.355 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 23:23:48.370 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 23:23:48.371 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 23:23:48.383 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 23:23:48.540 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 23:23:49.039 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 23:28:47.327 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15041 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 23:28:47.330 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:28:50.377 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 23:28:50.388 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 23:28:50.389 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 23:28:50.403 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 23:28:50.550 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 23:28:51.017 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 23:38:56.112 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15166 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 23:38:56.114 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:38:58.758 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 23:38:58.773 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 23:38:58.774 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 23:38:58.790 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 23:38:58.925 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 23:38:59.377 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 23:45:37.071 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15214 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 23:45:37.072 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2019-10-31 23:45:40.254 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 23:45:40.268 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 23:45:40.268 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 23:45:40.281 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 23:45:40.407 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 23:45:40.673 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 23:46:50.063 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15228 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 23:46:50.065 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:46:53.224 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 23:46:53.237 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 23:46:53.238 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 23:46:53.250 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 23:46:53.390 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 23:46:53.920 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 23:48:55.942 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15244 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 23:48:55.956 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:48:58.943 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 23:48:58.957 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 23:48:58.958 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 23:48:58.974 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 23:48:59.121 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 23:48:59.256 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 23:49:25.915 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15251 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 23:49:25.919 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:49:28.572 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 23:49:28.584 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 23:49:28.585 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 23:49:28.597 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 23:49:28.708 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 23:49:29.155 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-10-31 23:55:49.418 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15307 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-10-31 23:55:49.420 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-10-31 23:55:53.091 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-31 23:55:53.106 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-10-31 23:55:53.107 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-10-31 23:55:53.119 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-10-31 23:55:53.269 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-10-31 23:55:53.722 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 00:14:30.046 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15436 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 00:14:30.048 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 00:14:33.581 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 00:14:33.597 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 00:14:33.597 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 00:14:33.611 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 00:14:33.745 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 00:14:34.189 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 00:18:11.924 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15468 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 00:18:11.926 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 00:18:14.885 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 00:18:14.899 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 00:18:14.900 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 00:18:14.913 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 00:18:15.034 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 00:18:15.493 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 00:19:09.596 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15479 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 00:19:09.605 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 00:19:12.366 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 00:19:12.380 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 00:19:12.381 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 00:19:12.392 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 00:19:12.514 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 00:19:12.962 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 00:27:03.569 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15539 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 00:27:03.571 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 00:27:06.544 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 00:27:06.555 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 00:27:06.556 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 00:27:06.568 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 00:27:06.703 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 00:27:06.832 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 00:28:02.025 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15549 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 00:28:02.044 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 00:28:05.103 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 00:28:05.118 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 00:28:05.119 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 00:28:05.132 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 00:28:05.255 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 00:28:05.765 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 00:28:57.925 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 15559 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 00:28:57.927 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 00:29:00.993 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 00:29:01.004 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 00:29:01.005 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 00:29:01.018 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 00:29:01.132 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 00:29:01.589 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 14:41:39.184 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 21790 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 14:41:39.187 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 14:41:42.094 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 14:41:42.104 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 14:41:42.105 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 14:41:42.119 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 14:41:42.247 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 14:41:42.712 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 14:49:23.805 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 21866 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 14:49:23.809 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 14:49:26.358 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 14:49:26.369 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 14:49:26.370 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 14:49:26.385 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 14:49:26.542 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 14:49:27.017 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 14:51:16.795 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 21892 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 14:51:16.800 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 14:51:19.539 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 14:51:19.555 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 14:51:19.555 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 14:51:19.574 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 14:51:19.731 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 14:51:19.877 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 14:52:13.558 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 21902 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 14:52:13.559 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 14:52:15.988 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 14:52:16.001 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 14:52:16.002 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 14:52:16.014 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 14:52:16.122 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 14:52:16.566 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 14:52:44.722 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 21909 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 14:52:44.723 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 14:53:14.647 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 21916 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 14:53:14.653 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 14:53:17.221 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 14:53:17.233 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 14:53:17.234 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 14:53:17.246 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 14:53:17.370 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 14:53:17.833 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
-2019-11-01 14:54:21.361 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 21925 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 14:54:21.362 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 14:57:27.344 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 21949 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 14:57:27.345 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 14:57:31.533 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.071 seconds (JVM running for 7.348)
-2019-11-01 14:58:14.673 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 21956 (started by apple in /Users/apple/projects/Java Projects/myblog)
-2019-11-01 14:58:14.709 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 14:58:17.778 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
-2019-11-01 14:58:17.794 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
-2019-11-01 14:58:17.795 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-11-01 14:58:17.806 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-11-01 14:58:17.933 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
-2019-11-01 14:58:19.436 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
-2019-11-01 14:58:19.459 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Using a shared selector for servlet write/read
-2019-11-01 14:58:19.483 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started CCXApplication in 5.918 seconds (JVM running for 7.637)
-2019-11-01 14:59:13.852 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 21964 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 14:59:13.863 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 14:59:19.045 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 6.223 seconds (JVM running for 7.891)
-2019-11-01 15:00:31.206 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 21976 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:00:31.208 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:00:35.879 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.57 seconds (JVM running for 7.864)
-2019-11-01 15:01:14.719 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 21984 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:01:14.720 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:01:18.898 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.027 seconds (JVM running for 7.04)
-2019-11-01 15:01:42.774 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 21991 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:01:42.776 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:01:47.104 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.266 seconds (JVM running for 7.548)
-2019-11-01 15:02:49.379 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22005 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:02:49.380 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:02:53.654 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.143 seconds (JVM running for 7.541)
-2019-11-01 15:05:47.656 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22028 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:05:47.660 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:10:31.002 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22061 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:10:31.004 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:10:36.355 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 6.654 seconds (JVM running for 8.902)
-2019-11-01 15:12:10.108 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22076 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:12:10.110 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:15:04.504 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22101 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:15:04.507 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:16:01.937 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22116 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:16:01.938 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:16:05.838 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 4.349 seconds (JVM running for 5.819)
-2019-11-01 15:19:02.247 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22145 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:19:02.251 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:23:23.947 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22178 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:23:23.949 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:23:28.524 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.498 seconds (JVM running for 7.284)
-2019-11-01 15:24:21.977 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22188 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:24:21.979 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:24:26.305 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.292 seconds (JVM running for 7.289)
-2019-11-01 15:24:49.419 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22196 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:24:49.423 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:24:53.807 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.253 seconds (JVM running for 7.349)
-2019-11-01 15:25:48.633 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22209 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:25:48.635 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:25:53.247 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.492 seconds (JVM running for 7.759)
-2019-11-01 15:26:48.485 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22219 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:26:48.490 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:26:52.806 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.193 seconds (JVM running for 7.188)
-2019-11-01 15:27:06.602 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22224 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:27:06.604 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:27:07.603 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22224 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:27:07.604 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:27:07.921 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22224 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:27:07.922 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:27:08.088 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22224 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:27:08.088 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:27:08.255 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22224 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:27:08.255 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:27:08.402 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22224 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:27:08.403 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:27:08.576 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22224 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:27:08.579 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 15:27:08.738 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22224 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 15:27:08.739 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:12:29.768 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22795 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:12:29.770 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:12:31.150 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22795 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:12:31.152 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:12:31.549 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22795 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:12:31.550 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:12:31.736 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22795 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:12:31.737 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:12:31.959 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22795 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:12:31.960 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:12:32.148 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22795 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:12:32.149 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:12:32.305 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22795 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:12:32.306 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:12:32.443 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22795 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:12:32.444 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:13:32.777 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22806 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:13:32.781 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:13:34.772 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22806 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:13:34.772 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:13:35.382 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22806 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:13:35.383 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:13:35.748 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22806 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:13:35.749 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:13:36.006 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22806 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:13:36.007 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:13:36.233 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22806 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:13:36.234 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:13:36.466 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22806 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:13:36.467 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:13:36.664 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22806 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:13:36.664 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:23:18.927 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22933 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:23:18.931 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:23:20.739 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22933 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:23:20.740 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:23:21.177 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22933 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:23:21.177 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:23:21.450 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22933 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:23:21.451 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:23:21.701 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22933 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:23:21.702 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:23:21.920 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22933 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:23:21.921 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:23:22.141 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22933 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:23:22.141 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:23:22.340 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22933 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:23:22.341 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:24:08.327 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22942 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:24:08.329 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:24:12.697 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.306 seconds (JVM running for 7.393)
-2019-11-01 16:25:31.942 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 22954 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:25:31.945 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:25:36.856 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.841 seconds (JVM running for 7.795)
-2019-11-01 16:25:52.772 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22959 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:25:52.775 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:25:54.005 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22959 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:25:54.006 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:25:54.384 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22959 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:25:54.384 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:25:54.629 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22959 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:25:54.629 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:25:54.861 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22959 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:25:54.863 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:25:55.084 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22959 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:25:55.085 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:25:55.328 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22959 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:25:55.328 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
-2019-11-01 16:25:55.506 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 22959 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
-2019-11-01 16:25:55.507 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 20:39:30.427 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 34694 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 20:39:30.429 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 20:39:35.565 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.739 seconds (JVM running for 7.72)
+2019-11-02 20:45:17.158 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 34735 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 20:45:17.160 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 20:45:23.133 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 6.411 seconds (JVM running for 8.262)
+2019-11-02 20:46:50.640 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 34749 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 20:46:50.643 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 20:46:56.587 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 7.002 seconds (JVM running for 9.703)
+2019-11-02 20:58:14.500 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 34832 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 20:58:14.501 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 20:58:19.923 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 6.059 seconds (JVM running for 8.008)
+2019-11-02 20:59:15.168 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 34842 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 20:59:15.174 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 20:59:19.477 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.275 seconds (JVM running for 7.223)
+2019-11-02 21:10:34.186 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 34932 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:10:34.188 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:10:38.519 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.191 seconds (JVM running for 7.555)
+2019-11-02 21:10:59.726 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 34939 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:10:59.735 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:11:03.768 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 4.955 seconds (JVM running for 7.112)
+2019-11-02 21:11:46.158 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 34948 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:11:46.159 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:11:51.402 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.978 seconds (JVM running for 7.588)
+2019-11-02 21:15:02.009 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 34971 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:15:02.011 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:15:06.204 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.125 seconds (JVM running for 7.247)
+2019-11-02 21:15:18.392 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 34975 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:15:18.398 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:15:19.823 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 34975 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:15:19.823 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:16:20.190 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 34986 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:16:20.191 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:16:25.425 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 5.745 seconds (JVM running for 7.336)
+2019-11-02 21:23:54.698 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 35041 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:23:54.704 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:23:59.073 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 5.273 seconds (JVM running for 7.325)
+2019-11-02 21:24:27.413 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 35054 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:24:27.414 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:24:31.289 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 4.326 seconds (JVM running for 5.837)
+2019-11-02 21:26:34.488 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 35070 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:26:34.490 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:26:39.860 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 6.054 seconds (JVM running for 7.789)
+2019-11-02 21:27:48.247 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 35081 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:27:48.249 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:27:53.231 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.697 seconds (JVM running for 7.188)
+2019-11-02 21:34:42.700 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on MacBook-Pro.local with PID 35163 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:34:42.703 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:34:47.862 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 6.117 seconds (JVM running for 8.188)
+2019-11-02 21:35:02.664 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 35169 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:35:02.665 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:35:06.738 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 4.926 seconds (JVM running for 6.932)
+2019-11-02 21:35:45.624 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 35181 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:35:45.628 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:35:50.076 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 5.689 seconds (JVM running for 7.468)
+2019-11-02 21:38:42.448 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on MacBook-Pro.local with PID 35218 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 21:38:42.453 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 21:38:48.395 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 6.849 seconds (JVM running for 8.931)
+2019-11-02 23:05:13.477 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on macbook-pro with PID 35591 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 23:05:13.479 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 23:05:17.705 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started DataTest in 4.812 seconds (JVM running for 8.012)
+2019-11-02 23:05:54.071 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on macbook-pro with PID 35599 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 23:05:54.074 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 23:05:55.608 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting DataTest on macbook-pro with PID 35599 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 23:05:55.609 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 23:22:41.441 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on macbook-pro with PID 35774 (started by apple in /Users/apple/projects/Java Projects/myblog)
+2019-11-02 23:22:41.443 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 23:22:43.224 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-02 23:22:43.237 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2019-11-02 23:22:43.238 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-11-02 23:22:43.247 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-11-02 23:22:43.357 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2019-11-02 23:22:43.542 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
+2019-11-02 23:23:50.842 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on macbook-pro with PID 35786 (started by apple in /Users/apple/projects/Java Projects/myblog)
+2019-11-02 23:23:50.846 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 23:23:52.880 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-02 23:23:52.889 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2019-11-02 23:23:52.890 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-11-02 23:23:52.895 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-11-02 23:23:52.966 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2019-11-02 23:23:53.117 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
+2019-11-02 23:25:51.933 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on macbook-pro with PID 35802 (started by apple in /Users/apple/projects/Java Projects/myblog)
+2019-11-02 23:25:51.936 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 23:25:54.121 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-02 23:25:54.132 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2019-11-02 23:25:54.133 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-11-02 23:25:54.138 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-11-02 23:25:54.211 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2019-11-02 23:25:55.288 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-02 23:25:55.312 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Using a shared selector for servlet write/read
+2019-11-02 23:25:55.331 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started CCXApplication in 3.957 seconds (JVM running for 5.081)
+2019-11-02 23:27:19.212 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting BeanTest on macbook-pro with PID 35813 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 23:27:19.230 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 23:27:23.629 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started BeanTest in 5.329 seconds (JVM running for 7.329)
+2019-11-02 23:48:18.896 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on macbook-pro with PID 36002 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 23:48:18.920 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-02 23:48:20.466 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on macbook-pro with PID 36002 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-02 23:48:20.466 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 10:51:36.140 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2230 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 10:51:36.145 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 10:51:37.544 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2230 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 10:51:37.545 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 10:54:23.948 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting SpringBeanTest on MacBook-Pro.local with PID 2248 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 10:54:23.963 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 10:54:28.370 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started SpringBeanTest in 5.263 seconds (JVM running for 7.76)
+2019-11-10 10:55:23.425 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2252 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 10:55:23.426 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 10:55:24.975 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2252 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 10:55:24.975 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 11:07:41.153 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2276 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 11:07:41.154 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 11:07:45.390 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.084 seconds (JVM running for 7.624)
+2019-11-10 11:45:40.242 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2350 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 11:45:40.244 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 11:45:44.874 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.501 seconds (JVM running for 7.916)
+2019-11-10 11:46:30.618 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2359 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 11:46:30.622 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 11:46:35.117 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.41 seconds (JVM running for 7.252)
+2019-11-10 11:47:08.289 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2373 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 11:47:08.290 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 11:47:12.602 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.208 seconds (JVM running for 7.593)
+2019-11-10 11:47:57.346 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2379 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 11:47:57.350 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 11:48:02.138 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.631 seconds (JVM running for 7.55)
+2019-11-10 11:48:15.985 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2383 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 11:48:15.988 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 11:48:20.428 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.535 seconds (JVM running for 8.179)
+2019-11-10 13:01:57.648 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2464 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:01:57.651 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:02:02.254 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.564 seconds (JVM running for 8.61)
+2019-11-10 13:03:43.307 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2472 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:03:43.312 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:03:47.932 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.598 seconds (JVM running for 7.468)
+2019-11-10 13:09:37.675 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2494 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:09:37.677 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:09:42.120 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.326 seconds (JVM running for 7.896)
+2019-11-10 13:15:43.200 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2512 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:15:43.203 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:15:47.417 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.155 seconds (JVM running for 7.281)
+2019-11-10 13:18:44.431 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2516 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:18:44.433 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:18:48.863 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.298 seconds (JVM running for 7.58)
+2019-11-10 13:19:13.482 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2519 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:19:13.483 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:19:18.834 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.823 seconds (JVM running for 7.561)
+2019-11-10 13:19:38.859 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2522 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:19:38.861 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:19:42.955 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 4.999 seconds (JVM running for 8.427)
+2019-11-10 13:20:20.348 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2526 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:20:20.351 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:20:24.779 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.474 seconds (JVM running for 8.095)
+2019-11-10 13:23:13.176 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2530 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:23:13.203 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:23:17.870 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.598 seconds (JVM running for 8.345)
+2019-11-10 13:24:00.144 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2535 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:24:00.148 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:24:04.591 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.493 seconds (JVM running for 7.827)
+2019-11-10 13:24:31.695 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2539 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:24:31.699 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:24:35.802 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.82 seconds (JVM running for 9.046)
+2019-11-10 13:26:52.289 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2546 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:26:52.297 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:26:57.081 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.725 seconds (JVM running for 8.374)
+2019-11-10 13:27:13.075 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2550 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:27:13.086 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:27:18.624 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 6.576 seconds (JVM running for 8.551)
+2019-11-10 13:27:33.447 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2554 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:27:33.450 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:27:38.255 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.741 seconds (JVM running for 8.308)
+2019-11-10 13:27:49.466 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2558 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:27:49.480 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:27:54.028 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.546 seconds (JVM running for 8.306)
+2019-11-10 13:28:24.714 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2562 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:28:24.717 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:28:29.280 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.666 seconds (JVM running for 8.683)
+2019-11-10 13:29:44.161 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2567 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:29:44.176 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:29:48.921 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.594 seconds (JVM running for 7.891)
+2019-11-10 13:31:30.062 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2574 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:31:30.064 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:31:34.053 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 4.929 seconds (JVM running for 7.568)
+2019-11-10 13:32:09.915 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2578 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:32:09.916 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:32:14.517 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.323 seconds (JVM running for 7.868)
+2019-11-10 13:34:47.040 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2586 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:34:47.052 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:34:51.474 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.301 seconds (JVM running for 8.055)
+2019-11-10 13:53:14.559 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2724 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:53:14.561 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:53:19.002 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.269 seconds (JVM running for 8.562)
+2019-11-10 13:58:02.010 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2731 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:58:02.016 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:58:06.426 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.315 seconds (JVM running for 8.222)
+2019-11-10 13:58:20.866 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2735 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 13:58:20.874 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 13:58:24.580 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 4.677 seconds (JVM running for 7.136)
+2019-11-10 14:03:31.171 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2750 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 14:03:31.173 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 14:03:36.690 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.954 seconds (JVM running for 7.733)
+2019-11-10 14:04:00.823 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2754 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 14:04:00.825 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 14:04:05.141 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.008 seconds (JVM running for 7.597)
+2019-11-10 14:05:49.424 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2768 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 14:05:49.428 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 14:05:54.575 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 6.057 seconds (JVM running for 7.739)
+2019-11-10 14:06:11.100 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2772 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 14:06:11.102 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 14:06:15.587 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.332 seconds (JVM running for 8.835)
+2019-11-10 14:10:20.775 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2801 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 14:10:20.779 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 14:10:25.467 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.658 seconds (JVM running for 8.455)
+2019-11-10 14:10:25.926 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2019-11-10 14:10:25.965 [INFO ] com.alibaba.druid.pool.DruidDataSource.close - {dataSource-1} closed
+2019-11-10 14:12:48.024 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2810 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 14:12:48.027 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 14:12:52.477 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.342 seconds (JVM running for 7.718)
+2019-11-10 14:12:53.509 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2019-11-10 14:12:53.612 [INFO ] com.alibaba.druid.pool.DruidDataSource.close - {dataSource-1} closed
+2019-11-10 14:16:00.396 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2814 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 14:16:00.398 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 14:16:04.754 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 5.193 seconds (JVM running for 7.845)
+2019-11-10 14:16:05.761 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2019-11-10 14:16:05.860 [INFO ] com.alibaba.druid.pool.DruidDataSource.close - {dataSource-1} closed
+2019-11-10 14:17:18.339 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2818 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 14:17:18.342 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 14:17:24.074 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 6.178 seconds (JVM running for 7.857)
+2019-11-10 14:17:24.971 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2019-11-10 14:17:25.078 [INFO ] com.alibaba.druid.pool.DruidDataSource.close - {dataSource-1} closed
+2019-11-10 14:17:48.618 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting TestService on MacBook-Pro.local with PID 2821 (started by apple in /Users/apple/projects/Java Projects/myblog/ccx-interact)
+2019-11-10 14:17:48.619 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-10 14:17:52.724 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started TestService in 4.968 seconds (JVM running for 7.214)
+2019-11-10 14:17:53.547 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2019-11-10 14:17:53.621 [INFO ] com.alibaba.druid.pool.DruidDataSource.close - {dataSource-1} closed

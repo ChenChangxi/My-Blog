@@ -15,7 +15,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  **/
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-//@MapperScan("com.ccx.*.*.mapper")
+@MapperScan(basePackages = {"com.ccx.system.mapper", "com.ccx.junit.mybatis.mapper"})
 public class CCXApplication {
 
     public static void main(String[] args) {

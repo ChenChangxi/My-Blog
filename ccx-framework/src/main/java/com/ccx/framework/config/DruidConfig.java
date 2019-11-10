@@ -7,6 +7,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -36,7 +37,6 @@ import javax.sql.DataSource;
 
 @Configuration
 @PropertySource("classpath:application-data.yml")
-//@EnableConfigurationProperties(DruidProperties.class)
 public class DruidConfig {
 
     /**
@@ -108,5 +108,4 @@ public class DruidConfig {
                                                       SqlSessionFactory sqlSessionFactory) {
         return new SqlSessionTemplate(sqlSessionFactory);
     }
-
 }

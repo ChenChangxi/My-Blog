@@ -3,11 +3,10 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ccx.junit.mybatis.mapper.TestMapper">
-    <resultMap id="test" type="BaseEntity">
+    <resultMap id="test" type="com.ccx.common.entity.BaseEntity">
         <id property="id" column="id_test"/>
         <result property="ping" column="ping_test"/>
     </resultMap>
-
     <select id="select" parameterType="Integer" resultMap="test">
         select id_test,ping_test from test where id_test=#{test}
     </select>
@@ -16,11 +15,11 @@
         delete from test where id_test=#{id}
     </delete>
 
-    <insert id="insert" parameterType="BaseEntity">
-        insert into test(id_test,ping_test) values(#{id},#{ping})
+    <insert id="insert" parameterType="Map">
+        insert into test(ping_test,id_test) values(#{ping},#{id})
     </insert>
 
-    <update id="update" parameterType="BaseEntity">
+    <update id="update" parameterType="Map">
         update test set ping_test=#{ping} where id_test=#{id}
     </update>
 </mapper>

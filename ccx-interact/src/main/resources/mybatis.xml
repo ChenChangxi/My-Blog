@@ -13,7 +13,7 @@
         <setting name="useGeneratedKeys"         value="true" />  <!-- 允许 JDBC 支持自动生成主键 -->
         <setting name="defaultExecutorType"      value="REUSE" /> <!-- 配置默认的执行器 -->
         <setting name="logImpl"                  value="SLF4J" /> <!-- 指定 MyBatis 所用日志的具体实现 -->
-        <setting name="mapUnderscoreToCamelCase" value="true"/>  <!-- 驼峰命名法 -->
+        <!--<setting name="mapUnderscoreToCamelCase" value="true"/>  &lt;!&ndash; 驼峰命名法 &ndash;&gt;-->
     </settings>
 
 </configuration>
