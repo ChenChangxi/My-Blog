@@ -44,6 +44,7 @@
         <shiro.version>1.4.0</shiro.version>
         <shiro.thymeleaf.version>2.0.0</shiro.thymeleaf.version>
         <pagehelper.version>1.2.5</pagehelper.version>
+        <fastjson.version>1.2.47</fastjson.version>
     </properties>
 
     <!--它是一个依赖声明，它不引入具体的jar包，子模块需要
@@ -149,6 +150,13 @@
                 <groupId>com.github.theborakompanioni</groupId>
                 <artifactId>thymeleaf-extras-shiro</artifactId>
                 <version>${shiro.thymeleaf.version}</version>
+            </dependency>
+
+            <!--阿里的josn工具，对springmvc进行单元测试的时候用到-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
 
             <!--在这里导入各个模块也是为了方便进行版本管理，在这里定义以后

@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19382492-0bbf-4eab-89c3-4a80a3d14acb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/transaction/TransactionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/LogAspectjTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/constant/WebConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccx-interact/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springmvc/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springmvc/TestMockMvc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/CCXApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/CCXApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccx-interact/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ccx-interact/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccx-interact/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/src/main/resources/mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/mapper/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/mapper/TestMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/test/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/service/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/BeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/SpringBeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccx-interact/src/test/resources/mapper/testMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/src/test/resources/com/ccx/junit/mybatis/mapper/testMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccx-interact/src/main/resources/template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccx-interact/src/main/resources/template/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/LogAspectjTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/LogAspectjTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ccx-interact/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ccx-interact/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/error" beforeDir="false" afterPath="$PROJECT_DIR$/log/error" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/info" beforeDir="false" afterPath="$PROJECT_DIR$/log/info" afterDir="false" />
@@ -44,65 +47,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/mapper/TestMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="246" column="42" selection-start-line="246" selection-start-column="42" selection-end-line="246" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/Configuration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9130">
-              <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-              <folding>
-                <element signature="e#25105#25106#0" expanded="true" />
-                <element signature="e#25155#25156#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10998">
-              <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/resources/com/ccx/junit/mybatis/mapper/testMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/service/TestService.java">
+        <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/WebMvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+            <state relative-caret-position="425">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1171#1187#0" expanded="true" />
-                <element signature="e#1481#1497#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/ShiroConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/DruidConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-325">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-40">
+              <caret line="170" column="25" selection-start-line="170" selection-start-column="25" selection-end-line="170" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10415" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/application-data.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -110,26 +105,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="345">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/mybatis.xml">
+        <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springmvc/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+            <state relative-caret-position="750">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/application-data.yml">
+        <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springmvc/TestMockMvc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="245">
+              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,8 +141,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -150,39 +151,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/template/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/service/TestService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/annotation/Log.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/WebMvcConfig.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ccx-interact/pom.xml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/entity/MicroBlogEntity.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/ccx-framework/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/DruidConfig.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/aspectj/LogAspectj.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/entity/BaseEntity.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/entity/DocumentEntity.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springmvc/TestController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/mapper/TestMapper.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/SpringBeanTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/transaction/TransactionTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/LogAspectjTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/CCXApplication.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/properties/DruidProperties.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/ShiroConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/entity/MicroBlogEntity.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-framework/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springmvc/TestMockMvc.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/aspectj/LogAspectj.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/entity/BaseEntity.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/entity/DocumentEntity.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/CCXApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/constant/WebConstants.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/templates/index.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ccx-interact/src/main/resources/template/index.html" />
-        <option value="$PROJECT_DIR$/ccx-interact/src/main/resources/static/ajax/libs/contextmenu/jquery.contextMenu.min.css" />
-        <option value="$PROJECT_DIR$/ccx-test/src/test/java/com/ccx/junit/LogTest.java" />
-        <option value="$PROJECT_DIR$/ccx-system/src/main/java/com/ccx/system/mapper/Test.java" />
-        <option value="$PROJECT_DIR$/ccx-test/src/test/java/com/ccx/junit/LogTestBeanFactory.java" />
-        <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/aspectj/LogAspectj.java" />
-        <option value="$PROJECT_DIR$/ccx-common/pom.xml" />
-        <option value="$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/interact/CCXApplication.java" />
-        <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/MongoDBConfig.java" />
-        <option value="$PROJECT_DIR$/ccx-system/pom.xml" />
         <option value="$PROJECT_DIR$/ccx-framework/pom.xml" />
         <option value="$PROJECT_DIR$/ccx-interact/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/ccx-test/src/test/java/com/ccx/junit/Test.java" />
@@ -201,28 +196,39 @@
         <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/SqlSessionConfig.java" />
         <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/SlaveDruidConfig.java" />
         <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/MasterDruidConfig.java" />
-        <option value="$PROJECT_DIR$/ccx-interact/pom.xml" />
         <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/properties/DruidProperties.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/log/rolling" />
         <option value="$PROJECT_DIR$/log/warn" />
         <option value="$PROJECT_DIR$/log/info" />
-        <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/DruidConfig.java" />
         <option value="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/BeanTest.java" />
         <option value="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/test/DataTest.java" />
         <option value="$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/mapper/TestMapper.java" />
         <option value="$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/interact/service/TestService.java" />
         <option value="$PROJECT_DIR$/ccx-interact/src/main/resources/mapper/testMapper.xml" />
-        <option value="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/LogAspectjTest.java" />
         <option value="$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/CCXApplication.java" />
         <option value="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/transaction/TransactionTest.java" />
-        <option value="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/service/TestService.java" />
         <option value="$PROJECT_DIR$/ccx-interact/src/test/resources/mapper/testMapper.xml" />
         <option value="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/mapper/TestMapper.java" />
         <option value="$PROJECT_DIR$/ccx-interact/src/main/resources/mybatis.xml" />
-        <option value="$PROJECT_DIR$/ccx-interact/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ccx-interact/src/test/resources/application.yml" />
         <option value="$PROJECT_DIR$/ccx-interact/src/main/resources/application-data.yml" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/service/TestService.java" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/LogAspectjTest.java" />
+        <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/test/resources/template/test/search.html" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/test/resources/template/test/select.html" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/test/resources/template/test/index.html" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/test/resources/template/test.html" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/test/resources/template/index.html" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/test/resources/template/test/success.html" />
+        <option value="$PROJECT_DIR$/ccx-interact/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springmvc/TestMockMvc.java" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springmvc/TestController.java" />
+        <option value="$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/constant/WebConstants.java" />
+        <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/ccx-interact/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/WebMvcConfig.java" />
       </list>
     </option>
   </component>
@@ -240,8 +246,10 @@
     <option name="LABEL_PART_2" value="&quot;/&gt;" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="730" />
+    <option name="y" value="23" />
+    <option name="width" value="710" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -250,342 +258,20 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-interact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="ccx-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573366754413" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573484607392" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -593,7 +279,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -610,10 +296,11 @@
       <recent name="com.ccx.mapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ccx-interact/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/ccx-interact/src/test/resources/templates" />
+      <recent name="$PROJECT_DIR$/ccx-interact/src/test/resources/template" />
+      <recent name="$PROJECT_DIR$/ccx-interact/src/main/resources/template" />
       <recent name="$PROJECT_DIR$/ccx-interact/src/test/resources/com/ccx/junit/mybatis" />
-      <recent name="$PROJECT_DIR$/ccx-interact/src/test/resources" />
-      <recent name="$PROJECT_DIR$/ccx-interact/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ccx-interact/src/main/resources/static/ajax/libs/bootstrap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -628,106 +315,85 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestService.delect">
-    <configuration name="TestService.insert" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.CCXApplication">
+    <configuration name="SpringBeanTest.checkDataSource" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="ccx-interact" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ccx.junit.mybatis.service.*" />
+          <option name="PATTERN" value="com.ccx.junit.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ccx.junit.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ccx.junit.mybatis.service.TestService" />
-      <option name="METHOD_NAME" value="insert" />
+      <option name="PACKAGE_NAME" value="com.ccx.junit.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.ccx.junit.springboot.SpringBeanTest" />
+      <option name="METHOD_NAME" value="checkDataSource" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestService.select" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMockMvc.test" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="ccx-interact" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ccx.junit.mybatis.service.*" />
+          <option name="PATTERN" value="com.ccx.junit.springmvc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ccx.junit.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ccx.junit.mybatis.service.TestService" />
-      <option name="METHOD_NAME" value="select" />
+      <option name="PACKAGE_NAME" value="com.ccx.junit.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.ccx.junit.springmvc.TestMockMvc" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestService.update" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMockMvc.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ccx-interact" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ccx.junit.mybatis.service.*" />
+          <option name="PATTERN" value="com.ccx.junit.springmvc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ccx.junit.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ccx.junit.mybatis.service.TestService" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="PACKAGE_NAME" value="com.ccx.junit.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.ccx.junit.springmvc.TestMockMvc" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestService.delect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CCXApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ccx-interact" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ccx.junit.mybatis.service.*" />
+          <option name="PATTERN" value="com.ccx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ccx.junit.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ccx.junit.mybatis.service.TestService" />
-      <option name="METHOD_NAME" value="delect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestService.select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ccx-interact" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ccx.junit.mybatis.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ccx.junit.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ccx.junit.mybatis.service.TestService" />
-      <option name="METHOD_NAME" value="select" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ccx.CCXApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Android JUnit.TestService.insert" />
-      <item itemvalue="Android JUnit.TestService.select" />
-      <item itemvalue="Android JUnit.TestService.update" />
-      <item itemvalue="JUnit.TestService.select" />
-      <item itemvalue="JUnit.TestService.delect" />
+      <item itemvalue="Android JUnit.SpringBeanTest.checkDataSource" />
+      <item itemvalue="Android JUnit.TestMockMvc.test" />
+      <item itemvalue="Spring Boot.CCXApplication" />
+      <item itemvalue="JUnit.TestMockMvc.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestService.delect" />
-        <item itemvalue="JUnit.TestService.select" />
-        <item itemvalue="Android JUnit.TestService.update" />
-        <item itemvalue="Android JUnit.TestService.insert" />
-        <item itemvalue="Android JUnit.TestService.select" />
+        <item itemvalue="Spring Boot.CCXApplication" />
+        <item itemvalue="JUnit.TestMockMvc.test" />
+        <item itemvalue="Android JUnit.TestMockMvc.test" />
+        <item itemvalue="Android JUnit.SpringBeanTest.checkDataSource" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -763,7 +429,10 @@
       <workItem from="1572959642755" duration="11000" />
       <workItem from="1572997015987" duration="60000" />
       <workItem from="1572997566700" duration="1674000" />
-      <workItem from="1573294631064" duration="7464000" />
+      <workItem from="1573294631064" duration="12377000" />
+      <workItem from="1573377301230" duration="8000" />
+      <workItem from="1573377329338" duration="16672000" />
+      <workItem from="1573469227751" duration="13751000" />
     </task>
     <task id="LOCAL-00001" summary="创建了项目，创建了模块">
       <created>1569138467605</created>
@@ -856,49 +525,55 @@
       <option name="project" value="LOCAL" />
       <updated>1572710066846</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="完成了MyBatis的单元测试，解决了junit中dao和mapper映射问题">
+      <created>1573366791882</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573366791882</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestService_insert - 2019.11.10 at 13h 58m 07s.xml">
-      <configuration name="TestService.insert" configurationId="AndroidJUnit" />
+    <history-entry file="TestMockMvc_test - 2019.11.11 at 11h 53m 39s.xml">
+      <configuration name="TestMockMvc.test" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="TestService_insert - 2019.11.10 at 13h 58m 25s.xml">
-      <configuration name="TestService.insert" configurationId="AndroidJUnit" />
+    <history-entry file="TestMockMvc_test - 2019.11.11 at 19h 02m 27s.xml">
+      <configuration name="TestMockMvc.test" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="TestService_insert - 2019.11.10 at 14h 00m 38s.xml">
-      <configuration name="TestService.insert" configurationId="AndroidJUnit" />
+    <history-entry file="TestMockMvc_test - 2019.11.11 at 19h 05m 19s.xml">
+      <configuration name="TestMockMvc.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestService_insert - 2019.11.10 at 14h 03m 37s.xml">
-      <configuration name="TestService.insert" configurationId="AndroidJUnit" />
+    <history-entry file="TestMockMvc_test - 2019.11.11 at 19h 06m 02s.xml">
+      <configuration name="TestMockMvc.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestService_insert - 2019.11.10 at 14h 04m 05s.xml">
-      <configuration name="TestService.insert" configurationId="AndroidJUnit" />
+    <history-entry file="TestMockMvc_test - 2019.11.11 at 19h 08m 13s.xml">
+      <configuration name="TestMockMvc.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestService_insert - 2019.11.10 at 14h 05m 55s.xml">
-      <configuration name="TestService.insert" configurationId="AndroidJUnit" />
+    <history-entry file="TestMockMvc_test - 2019.11.11 at 19h 09m 48s.xml">
+      <configuration name="TestMockMvc.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestService_insert - 2019.11.10 at 14h 06m 16s.xml">
-      <configuration name="TestService.insert" configurationId="AndroidJUnit" />
+    <history-entry file="TestMockMvc_test - 2019.11.11 at 19h 10m 12s.xml">
+      <configuration name="TestMockMvc.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestService_insert - 2019.11.10 at 14h 10m 26s.xml">
-      <configuration name="TestService.insert" configurationId="AndroidJUnit" />
+    <history-entry file="TestMockMvc_test - 2019.11.11 at 19h 13m 04s.xml">
+      <configuration name="TestMockMvc.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestService_insert - 2019.11.10 at 14h 12m 54s.xml">
-      <configuration name="TestService.insert" configurationId="AndroidJUnit" />
+    <history-entry file="TestMockMvc_test - 2019.11.11 at 19h 13m 19s.xml">
+      <configuration name="TestMockMvc.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestService_update - 2019.11.10 at 14h 16m 06s.xml">
-      <configuration name="TestService.update" configurationId="AndroidJUnit" />
+    <history-entry file="TestMockMvc_test - 2019.11.11 at 19h 16m 57s.xml">
+      <configuration name="TestMockMvc.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179343000" />
+    <option name="totallyTimeSpent" value="214687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.2274678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.23032904" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.33360064" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -952,107 +627,11 @@
     <MESSAGE value="配置了部分shiro框架" />
     <MESSAGE value="完成了SpringBoot项目的单元测试，得到了所有的Spring bean。" />
     <MESSAGE value="完成了springboot整合mybatis的单元测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了springboot整合mybatis的单元测试" />
+    <MESSAGE value="完成了MyBatis的单元测试，解决了junit中dao和mapper映射问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了MyBatis的单元测试，解决了junit中dao和mapper映射问题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ccx-test/src/test/java/com/ccx/junit/mybatis/test/DataTest.java" />
-    <entry file="file://$PROJECT_DIR$/ccx-test/src/test/resources/mapper/testMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/ccx-test/src/test/java/com/ccx/junit/mybatis/mapper/TestMapper.java" />
-    <entry file="file://$PROJECT_DIR$/ccx-test/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ccx-framework/src/test/java/com/ccx/junit/mybatis/mapper/TestMapper.java" />
-    <entry file="file://$PROJECT_DIR$/ccx-framework/src/test/java/com/ccx/junit/mybatis/test/DataTest.java" />
-    <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/SqlSessionConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/SlaveDruidConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/MasterDruidConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/error">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/resources/application-data.yml" />
-    <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/properties/DruidProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/javax/sql/CommonDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/rolling">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/warn">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/info">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.14/druid-1.1.14.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/DruidConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="75" column="77" selection-start-line="75" selection-start-column="77" selection-end-line="75" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.14/druid-spring-boot-starter-1.1.14.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.14/druid-1.1.14.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="90" column="52" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/service/TestService.java" />
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/interact/service/TestService.java" />
     <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/interact/service/TestMapper.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ccx-system/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1067,20 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/LogAspectjTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/transaction/TransactionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-test-autoconfigure/1.3.2/mybatis-spring-boot-test-autoconfigure-1.3.2.jar!/org/mybatis/spring/boot/test/autoconfigure/MybatisTest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -1088,30 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/SpringBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-test-autoconfigure/1.3.2/mybatis-spring-boot-test-autoconfigure-1.3.2-sources.jar!/org/mybatis/spring/boot/test/autoconfigure/MybatisTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/CCXApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1136,16 +681,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/target/test-classes/mapper/testMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/target/test-classes/mapper/testMapper.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -1178,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/mapper/TestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1192,20 +721,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/resources/com/ccx/junit/mybatis/mapper/testMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1213,21 +729,226 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/application-data.yml">
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/LogAspectjTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/resources/template/test/select.html" />
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/resources/template/test.html" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/ModelAndView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/mapper/TestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/resources/static/imgs/Joker.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/transaction/TransactionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springboot/SpringBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/mybatis/service/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        <state relative-caret-position="56">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1171#1187#0" expanded="true" />
-            <element signature="e#1481#1497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/template/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/java/com/ccx/CCXApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-common/src/main/java/com/ccx/common/constant/WebConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/properties/DruidProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/config/annotation/ResourceHandlerRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/ResourceHandlerRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="119" column="39" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/static/patterns/header-profile.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/static/patterns/header-profile-skin-blue.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/static/patterns/header-profile-skin-yellow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/static/patterns/shattered.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/ResourceHandlerRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="81" column="39" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/application-data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="170" column="25" selection-start-line="170" selection-start-column="25" selection-end-line="170" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/templates/test/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springmvc/TestMockMvc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-interact/src/test/java/com/ccx/junit/springmvc/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccx-framework/src/main/java/com/ccx/framework/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1321,6 +1042,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

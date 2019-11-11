@@ -39,16 +39,6 @@ import javax.sql.DataSource;
 @PropertySource("classpath:application-data.yml")
 public class DruidConfig {
 
-    /**
-    *@Description: 将主数据源注入Spring容器
-    *@Param:
-     * DruidProperties
-    *@return:
-     * DruidProperties
-    *@Author: ChenChangxi
-    *@date: 2019-09-28
-    */
-
     @Bean(name = "masterDataSource")
     @Primary
     @ConfigurationProperties("spring.datasource.druid.master")
@@ -57,16 +47,6 @@ public class DruidConfig {
         DruidDataSource dataSource = DruidDataSourceBuilder.create().build();
         return druidProperties.setProperties(dataSource);
     }
-
-    /**
-    *@Description: 将从数据源注入Spring容器
-    *@Param:
-     * DruidProperties
-    *@return:
-     * DataSource
-    *@Author: ChenChangxi
-    *@date: 2019-09-28
-    */
 
     @Bean(name = "slaveDataSource")
     @ConfigurationProperties("spring.datasource.druid.slave")

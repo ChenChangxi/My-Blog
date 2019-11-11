@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        这是我为了测试SpringMVC框架，Shiro框架，以及
+        thymeleaf模版引擎而创建的前端页面
+    </title>
+    <link href="../static/ajax/libs/bootstrap/bootstrap.min.css"
+          th:href="@{/ajax/libs/bootstrap/bootstrap.min.css}" rel="stylesheet"/>
+</head>
+<body>
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="account" class="col-sm-2 control-label">Account</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="account" placeholder="Account">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password" class="col-sm-2 control-label">Password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <button type="button" class="btn btn-info" id="sub">提交</button>
+    </div>
+</form>
+<script th:href="@{/ajax/libs/jquery/jquery.min.js}"
+        src="../static/ajax/libs/bootstrap/bootstrap.min.js"></script>
+<script th:href="@{/ajax/libs/bootstrap/bootstrap.min.js}"
+        src="../static/ajax/libs/jquery/jquery.min.js"></script>
+</body>
+<script type="text/javascript">
+    $(document).ready(
+        function() {
+            $("sub").click(
+                function() {
+                    $.ajax({
+                        type:"POST",
+                        url:"http://localhost:8080/insert"
+                    })
+                }
+            )
+        }
+    )
+</script>
+</html>
+<!DOCTYPE html>

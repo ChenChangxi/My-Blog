@@ -29,6 +29,17 @@
             <artifactId>framework</artifactId>
         </dependency>
 
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-web</artifactId>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.slf4j</groupId>-->
+                    <!--<artifactId>slf4j-log4j12</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
+
         <!--选择thymeleag作为整个前后端交互的模版引擎，这里一定要排除
         logback，否则会报错，因为thymeleaf底层是依赖logback功能的-->
         <dependency>
@@ -61,19 +72,8 @@
         </dependency>
 
         <dependency>
-            <groupId>com.ccx</groupId>
-            <artifactId>test</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.pagehelper</groupId>
-            <artifactId>pagehelper-spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
         </dependency>
 
     </dependencies>

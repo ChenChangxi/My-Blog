@@ -62,3 +62,132 @@
 2019-11-10 14:16:04.138 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
 2019-11-10 14:17:23.497 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
 2019-11-10 14:17:52.103 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-10 18:58:36.471 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-10 18:58:36.670 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-10 18:58:39.575 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 11:49:13.955 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 11:50:17.214 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 11:53:36.921 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:02:24.375 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:05:17.350 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:05:59.812 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:08:09.196 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:09:46.412 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:10:08.713 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:13:01.458 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:13:16.529 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:16:54.960 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:24:37.888 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 19:24:38.268 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 19:24:41.355 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:27:51.042 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 19:27:51.157 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 19:27:54.483 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:29:30.976 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 19:29:31.076 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 19:29:32.606 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:30:06.896 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 19:30:07.164 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 19:30:09.886 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:30:49.187 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 19:30:49.298 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 19:30:51.609 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:39:28.750 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 19:39:28.890 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 19:39:31.444 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:40:27.219 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 19:40:27.330 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 19:40:29.992 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:45:11.615 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 19:45:11.750 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 19:45:14.389 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 19:46:58.869 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 19:46:59.100 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 19:47:02.322 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 20:50:44.137 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 20:50:44.315 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 20:50:45.907 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 20:51:10.273 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 20:51:10.412 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 20:51:12.124 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 20:52:31.699 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 20:52:31.855 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 20:52:33.901 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 20:54:36.237 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 20:54:36.413 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 20:54:38.259 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 20:57:17.707 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 20:57:17.928 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 20:57:19.642 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 20:58:06.854 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 20:58:07.059 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 20:58:08.593 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 21:01:49.416 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 21:01:49.675 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 21:01:51.449 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 21:02:57.336 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 21:02:57.572 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 21:02:59.741 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 21:58:52.072 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 21:58:52.370 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 21:58:54.679 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:00:18.993 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:00:19.174 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:00:21.274 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:02:47.292 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:02:47.916 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:02:49.921 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:06:51.480 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:06:51.710 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:06:53.602 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:07:33.531 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:07:33.639 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:07:35.116 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:15:54.389 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:15:54.492 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:15:55.965 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:19:26.081 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:19:26.382 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:19:29.272 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:21:11.406 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:21:11.651 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:21:13.679 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:26:50.074 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:26:50.259 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:26:53.327 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:27:27.105 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:27:27.269 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:27:28.985 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:30:25.826 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:30:25.922 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:30:29.358 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:31:14.288 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:31:14.481 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:31:16.381 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:31:51.601 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:31:51.799 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:31:53.678 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:32:19.582 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:32:19.870 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:32:21.559 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:32:54.913 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:32:55.084 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:32:57.248 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:34:11.149 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:34:11.323 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:34:12.927 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:34:33.254 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:34:33.439 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:34:35.644 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:36:11.742 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:36:12.025 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:36:13.817 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:38:55.393 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:38:55.507 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:38:57.787 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:40:06.520 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:40:06.670 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:40:08.891 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-11 22:41:29.440 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-11 22:41:29.562 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-11 22:41:32.117 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.

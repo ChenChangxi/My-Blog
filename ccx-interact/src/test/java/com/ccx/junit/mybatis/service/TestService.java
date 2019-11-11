@@ -17,7 +17,14 @@ import java.util.Map;
 
 /**
  * @program: com.ccx.junit
- * @description: 这是MyBatis的的单元测试
+ * @description: 这是MyBatis的的单元测试，这里有个说大不大说小也不小
+ * 的坑，困扰了我好几天，就是dao和mapper.xml文件的映射问题，我们在app
+ * lication.yml文件中配置了mapper.xml文件的路径，但这个配置对于在test
+ * 下面的resources目录并不起作用，dao接口还是会查找和它包路径相同的配
+ * 置文件。还有就是千万不能用@MaybatisTest这个注解，这个也困扰了我一段
+ * 时间，最后看看它的文档，结合网上的博客才发现这个注解是不会加载resources
+ * 下面的配置文件的，因此jdbc路径，数据源，sqlsessionfactory这些都不会
+ * 初始化。
  * @authhor: ChenChangxi
  * @create: 2019-09-22 21:36
  **/
