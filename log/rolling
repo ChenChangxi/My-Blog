@@ -9464,3 +9464,39 @@ Caused by: java.net.BindException: Address already in use
 [THYMELEAF]         * #temporals
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 2019-11-11 22:41:36.990 [DEBUG] org.thymeleaf.TemplateEngine.initialize - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2019-11-13 20:27:11.317 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 4025 (started by apple in /Users/apple/projects/Java Projects/myblog)
+2019-11-13 20:27:11.318 [DEBUG] org.springframework.boot.StartupInfoLogger.logStarting - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-11-13 20:27:11.319 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-13 20:27:11.981 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx.system.mapper, com.ccx.junit.mybatis.mapper]' package. Please check your configuration.
+2019-11-13 20:27:12.162 [DEBUG] org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions - Searching for mappers annotated with @Mapper
+2019-11-13 20:27:12.171 [DEBUG] org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions - Using auto-configuration base package 'com.ccx'
+2019-11-13 20:27:12.177 [WARN ] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan - No MyBatis mapper was found in '[com.ccx]' package. Please check your configuration.
+2019-11-13 20:27:13.208 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 20:27:13.217 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2019-11-13 20:27:13.218 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-11-13 20:27:13.224 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-11-13 20:27:13.316 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2019-11-13 20:27:13.663 [DEBUG] org.apache.ibatis.logging.LogFactory.setImplementation - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-11-13 20:27:13.668 [DEBUG] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-11-13 20:27:13.720 [DEBUG] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory - Property 'mapperLocations' was not specified or no matching resources found
+2019-11-13 20:27:13.750 [DEBUG] org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-11-13 20:27:13.751 [DEBUG] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory - Loaded expression factory via original TCCL
+2019-11-13 20:27:13.754 [DEBUG] org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-11-13 20:27:13.755 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl.messageInterpolator - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-11-13 20:27:13.755 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl.constraintValidatorFactory - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-11-13 20:27:13.756 [DEBUG] org.hibernate.validator.internal.engine.ConfigurationImpl.parameterNameProvider - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-11-13 20:27:13.757 [DEBUG] org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-11-13 20:27:13.757 [DEBUG] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath - Trying to load META-INF/validation.xml via user class loader
+2019-11-13 20:27:13.758 [DEBUG] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath - Trying to load META-INF/validation.xml via TCCL
+2019-11-13 20:27:13.758 [DEBUG] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-11-13 20:27:13.758 [DEBUG] org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-11-13 20:27:13.766 [DEBUG] org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-11-13 20:27:13.766 [DEBUG] org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-11-13 20:27:13.766 [DEBUG] org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-11-13 20:27:13.767 [DEBUG] org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-11-13 20:27:13.768 [DEBUG] org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-11-13 20:27:14.187 [WARN ] org.thymeleaf.templatemode.TemplateMode.parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-13 20:27:14.252 [DEBUG] org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration.afterPropertiesSet - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-11-13 20:27:14.441 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 20:27:14.464 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Using a shared selector for servlet write/read
+2019-11-13 20:27:14.483 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started CCXApplication in 3.884 seconds (JVM running for 5.491)

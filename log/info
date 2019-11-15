@@ -726,3 +726,13 @@
 2019-11-11 22:41:32.423 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Using a shared selector for servlet write/read
 2019-11-11 22:41:32.438 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started CCXApplication in 3.716 seconds (JVM running for 4.755)
 2019-11-11 22:41:36.858 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 20:27:11.317 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting CCXApplication on MacBook-Pro.local with PID 4025 (started by apple in /Users/apple/projects/Java Projects/myblog)
+2019-11-13 20:27:11.319 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - The following profiles are active: data
+2019-11-13 20:27:13.208 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 20:27:13.217 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2019-11-13 20:27:13.218 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-11-13 20:27:13.224 [INFO ] org.apache.juli.logging.DirectJDKLog.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-11-13 20:27:13.316 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2019-11-13 20:27:14.441 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 20:27:14.464 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Using a shared selector for servlet write/read
+2019-11-13 20:27:14.483 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started CCXApplication in 3.884 seconds (JVM running for 5.491)

@@ -14,13 +14,9 @@
     <link href="../static/ajax/libs/animate/animate.css" rel="stylesheet"
           th:href="@{/ajax/libs/animate/animate.css}"/>
     <!--<link href="../static/ajax/libs/skins/skins.css" rel="stylesheet"-->
-          <!--th:href="@{/ajax/libs/skins/skins.css}"/>-->
+    <!--th:href="@{/ajax/libs/skins/skins.css}"/>-->
     <link href="../static/ajax/libs/style/style.css" rel="stylesheet"
           th:href="@{/ajax/libs/style/style.css}"/>
-    <link href="../static/ajax/libs/flot/jquery.gritter.css" rel="stylesheet"
-          th:href="@{/ajax/libs/flot/jquery.gritter.css}"/>
-    <link href="../static/ajax/libs/flot/morris-0.4.3.min.css" rel="stylesheet"
-          th:href="@{/ajax/libs/flot/morris-0.4.3.min.css}"/>
 </head>
 <body>
 <div id="wrapper">
@@ -170,165 +166,75 @@
             </nav>
         </div>
         <!--左侧开始-->
-        <div class="row border-bottom white-bg dashboard-header">
-
-            <div class="col-sm-3">
-                <h2>Hello TFBoys</h2>
-                <small>您今天需要背5个单词</small>
-                <ul class="list-group clear-list m-t">
-                    <li class="list-group-item fist-item">
-                        <span class="label label-success">1</span>maneuver<span class="pull-right">n. 操纵</span>
-                    </li>
-                    <li class="list-group-item">
-                        <span class="label label-info">2</span>cordial<span class="pull-right">adj. 衷心的</span>
-                    </li>
-                    <li class="list-group-item">
-                        <span class="label label-primary">3</span>deteriorate<span class="pull-right">v. 恶化</span>
-                    </li>
-                    <li class="list-group-item">
-                        <span class="label label-default">4</span>appreciable<span class="pull-right">adj. 可察觉的</span>
-                    </li>
-                    <li class="list-group-item">
-                        <span class="label label-primary">5</span>serpent<span class="pull-right">n. 阴险的人</span>
-                    </li>
-                </ul>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>个人主页</h2>
+                <ol class="breadcrumb">
+                    <li><a href="#">我的主页</a></li>
+                    <li><strong>个人信息</strong></li>
+                </ol>
             </div>
+            <div class="col-lg-2">
 
-
-
-
-            <div class="col-sm-6">
-                <div class="flot-chart dashboard-chart">
-                    <div class="flot-chart-content" id="flot-dashboard-chart"></div>
-                </div>
-                <div class="row text-left">
-                    <div class="col-xs-4">
-                        <div class="m-t">
-                            <span class="h4 font-bold m-t block">&spades;12篇</span>
-                            <small class="text-muted m-b block">这个月写的博客</small>
-                        </div>
-                    </div>
-                    <div class="col-xs-4">
-                        <span class="h4 font-bold m-t block">&spades;2个</span>
-                        <small class="text-muted m-b block">这个月做的项目</small>
-                    </div>
-                    <div class="col-xs-4">
-                        <span class="h4 font-bold m-t block">&spades;30条</span>
-                        <small class="text-muted m-b block">这个月发的动态</small>
-                    </div>
-                </div>
             </div>
-
-
-
-
-            <div class="col-sm-3">
-                <div class="statistic-box">
-                    <h4>项目的进度</h4>
-                    <p>您还有两项未完成的任务</p>
-                    <div class="col-lg-6">
-                        <div class="chart easypiechart inline" data-percent="61">
-                            <span class="easypie-text">61%</span>
-                        </div>
-                        <h5>超级马里奥</h5>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="chart2 easypiechart inline" data-percent="31">
-                            <span class="easypie-text">31%</span>
-                        </div>
-                        <h5>无人驾驶系统</h5>
-                    </div>
-                </div>
-
-                <div class="m-t">
-                    请尽快完成相关项目的开发、测试工作
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="wrapper wrapper-content">
-                        <div class="row">
-
-
-                            <div class="col-lg-4">
-
-                                <div class="ibox float-e-margins">
-
-                                    <div class="ibox-title">
-
-                                    </div>
-
-                                    <div class="ibox-content">
-
-                                    </div>
-
-                                </div>
-
+        </div>
+        <div class="wrapper wrapper-content">
+            <div class="row animated fadeInRight">
+                <div class="col-md-4">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>我的信息</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse"><i class="fa fa-chevron-up"></i></a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li><a href="#">修改资料</a></li>
+                                </ul>
+                                <a class="close-link"><i class="fa fa-times"></i></a>
                             </div>
-
-                            <div class="col-lg-4">
-
-                                <div class="ibox float-e-margins">
-                                    <div class="ibox-title">
-
-                                    </div>
-
-                                    <div class="ibox-content">
-
-                                    </div>
-
-                                </div>
-
+                        </div>
+                        <div>
+                            <div class="ibox-content no-padding border-left-right">
+                                <img alt="image" class="img-responsive" src="../static/patterns/background.jpg">
                             </div>
-
-
-                            <div class="col-lg-4">
-                                <div class="ibox float-e-margins">
-                                    <div class="ibox-title">
-                                        <h5>项目进度</h5>
-                                        <div class="ibox-tools">
-                                            <a class="collapse-link" href="#"><i class="fa fa-chevron-up"></i></a>
-                                            <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench"></i></a>
-                                            <ul class="dropdown-menu dropdown-user">
-                                                <li><a href="#">选项1</a></li>
-                                                <li><a href="#">选项2</a></li>
-                                            </ul>
-                                            <a class="close-link"><i class="fa fa-times"></i></a>
+                            <div class="ibox-content profile-content">
+                                <h4><strong>陈昌熙&nbsp;&nbsp;(John Chan)</strong></h4>
+                                <p><i class="fa fa-phone"></i>&nbsp;&nbsp;17364301960</p>
+                                <p><i class="fa fa-github"></i>&nbsp;&nbsp;<a href="http://github.com/ChenChangxi">我的github&nbsp;&nbsp;(TFBoys)</a></p>
+                                <p><i class="fa fa-qq"></i>&nbsp;&nbsp;1016875161&nbsp;&nbsp;(Joker)</p>
+                                <p><i class="fa fa-mail-forward"></i>&nbsp;&nbsp;ccx1016875161@163.com</p>
+                                <p><i class="fa fa-birthday-cake"></i>&nbsp;&nbsp;1997年12月21日，今年21岁</p>
+                                <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;安徽省淮南市安徽理工大学山南校区</p>
+                                <p><i class="fa fa-user-o"></i>&nbsp;&nbsp;计算机科学与技术大三在读</p>
+                                <div class="row m-t-lg">
+                                    <div class="col-md-4">
+                                        <span class="bar">5,3,9,6,5,9,7,3,5,2</span>
+                                        <h5><strong>20</strong> 博客</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <span class="line">5,3,9,6,5,9,7,3,5,2</span>
+                                        <h5><strong>10</strong> 项目</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <span class="bar">5,3,9,6,5,9,7,3,5,2</span>
+                                        <h5><strong>10</strong> 兴趣</h5>
+                                    </div>
+                                </div>
+                                <div class="user-button">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <button type="button" class="btn btn-primary btn-sm btn-block"><i class="fa fa-envelope"></i>修改资料</button>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-coffee">修改介绍</i></button>
                                         </div>
                                     </div>
-
-                                    <div class="ibox-content ibox-heading">
-                                        <h3>超级马里奥-详解23种设计模式(C++实现)</h3>
-                                        <small><i class="fa fa-map-marker"></i>还有2个BUG，3个设计方案没完成</small>
-                                    </div>
-
-                                    <div class="ibox-content timeline">
-
-                                        <div class></div>
-
-                                    </div>
-
                                 </div>
-
-
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
             <div class="footer">
                 <div class="pull-right">
                     By:<a href=" ">Chen's Blog</a>
@@ -356,98 +262,6 @@
         th:href="@{/ajax/libs/peity/peity-demo.js}"></script>
 <script src="../static/index.js"
         th:href="@{/index.js}"></script>
-
-<script src="../static/ajax/libs/flot/jquery.flot.js"
-        th:href="@{/ajax/libs/flot/jquery.flot.js}"></script>
-<script src="../static/ajax/libs/flot/jquery.flot.pie.js"
-        th:href="@{/ajax/libs/flot/jquery.flot.pie.js}"></script>
-<script src="../static/ajax/libs/flot/jquery.flot.resize.js"
-        th:href="@{/ajax/libs/flot/jquery.flot.resize.js}"></script>
-<script src="../static/ajax/libs/flot/jquery.flot.spline.js"
-        th:href="@{/ajax/libs/flot/jquery.flot.spline.js}"></script>
-<script src="../static/ajax/libs/flot/jquery.flot.tooltip.min.js"
-        th:href="@{/ajax/libs/flot/jquery.flot.tooltip.min.js}"></script>
-<script src="../static/ajax/libs/flot/sparkline-demo.js"
-        th:href="@{/ajax/libs/flot/sparkline-demo.js}"></script>
-<script src="../static/ajax/libs/flot/easychart.js"
-        th:href="@{/ajax/libs/flot/easychart.js}"></script>
-<script src="../static/ajax/libs/flot/jquery-ui.min.js"
-        th:href="@{/ajax/libs/flot/jquery-ui.min.js}"></script>
-<script src="../static/ajax/libs/flot/jquery.gritter.min.js"
-        th:href="@{/ajax/libs/flot/jquery.gritter.min.js}"></script>
-<script src="../static/ajax/libs/flot/jquery.sparkline.min.js"
-        th:href="@{/ajax/libs/flot/jquery.sparkline.min.js}"></script>
-
-<script>
-    $(document).ready(function () {
-        WinMove();
-        setTimeout(function () {
-            $.gritter.add({
-                title: '您有2条未读信息',
-                text: '请前往<a href="mailbox.html" class="text-warning">收件箱</a>查看今日任务',
-                time: 10000
-            });
-        }, 2000);
-
-
-        $('.chart').easyPieChart({
-            barColor: '#f8ac59',
-            //                scaleColor: false,
-            scaleLength: 5,
-            lineWidth: 4,
-            size: 80
-        });
-
-        $('.chart2').easyPieChart({
-            barColor: '#1c84c6',
-            //                scaleColor: false,
-            scaleLength: 5,
-            lineWidth: 4,
-            size: 80
-        });
-
-        var data1 = [
-            [0, 4], [1, 8], [2, 5], [3, 10], [4, 4], [5, 16], [6, 5], [7, 11], [8, 6], [9, 11], [10, 30], [11, 10], [12, 13], [13, 4], [14, 3], [15, 3], [16, 6]
-        ];
-        var data2 = [
-            [0, 1], [1, 0], [2, 2], [3, 0], [4, 1], [5, 3], [6, 1], [7, 5], [8, 2], [9, 3], [10, 2], [11, 1], [12, 0], [13, 2], [14, 8], [15, 0], [16, 0]
-        ];
-        $("#flot-dashboard-chart").length && $.plot($("#flot-dashboard-chart"), [
-            data1, data2
-        ], {
-            series: {
-                lines: {
-                    show: false,
-                    fill: true
-                },
-                splines: {
-                    show: true,
-                    tension: 0.4,
-                    lineWidth: 1,
-                    fill: 0.4
-                },
-                points: {
-                    radius: 0,
-                    show: true
-                },
-                shadowSize: 2
-            },
-            grid: {
-                hoverable: true,
-                clickable: true,
-                tickColor: "#d5d5d5",
-                borderWidth: 1,
-                color: '#d5d5d5'
-            },
-            colors: ["#1ab394", "#464f88"],
-            xaxis: {},
-            yaxis: {
-                ticks: 4
-            },
-            tooltip: false
-        });
-    });
-</script>
 </body>
 </html>
 <!DOCTYPE html>

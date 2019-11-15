@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>
+        欢迎来到博客管理系统
+    </title>
+    <link href="../static/ajax/libs/bootstrap/bootstrap.min.css"
+          th:href="@{/ajax/libs/bootstrap/bootstrap.min.css}" rel="stylesheet"/>
+    <link href="../static/ajax/libs/font-awesome/font-awesome.min.css"
+          th:href="@{/ajax/libs/font-awesome/font-awesome.min.css}" rel="stylesheet"/>
+    <link href="../static/ajax/libs/animate/animate.css" rel="stylesheet"
+          th:href="@{/ajax/libs/animate/animate.css}"/>
+    <!--<link href="../static/ajax/libs/skins/skins.css" rel="stylesheet"-->
+    <!--th:href="@{/ajax/libs/skins/skins.css}"/>-->
+    <link href="../static/ajax/libs/style/style.css" rel="stylesheet"
+          th:href="@{/ajax/libs/style/style.css}"/>
+</head>
+<body>
+<div id="wrapper">
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse" >
+            <ul class="nav" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+
+
+                        <!--<span>
+                             <img src="../static/patterns/image.jpg" class="img-circle">
+                        </span>-->
+
+
+                        <a data-toggle="dropdown" class="dropdown-toggle" href=" ">
+                            <span class="clear">
+                                <span class="block m-t-xs"><strong class="font-bold">TFBoys</strong></span>
+                                <span class="text-muted text-xs block">超级管理员<b class="caret"></b></span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a href="  ">修改头像</a>
+                            </li>
+                            <li><a href="  ">个人资料</a>
+                            </li>
+                            <li><a href="  ">联系我们</a>
+                            </li>
+                            <li><a href="  ">信箱</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="login.html">安全退出</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--这是干啥的-->
+                    <div class="logo-element">
+                        ChenChangxi
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-home"></i>&nbsp;&nbsp;<span class="nav-label">我的主页</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">个人信息</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-comments"></i>&nbsp;&nbsp;<span class="nav-label">我的动态</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">我的动态</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-folder-o"></i>&nbsp;&nbsp;<span class="nav-label">我的博客</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">算法与数据结构</a></li>
+                        <li><a href="#">Java Web技术</a></li>
+                        <li><a href="#">机器学习与深度学习</a></li>
+                        <li><a href="#">单片机与树莓派</a></li>
+                        <li><a href="#">趣闻与杂谈</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-object-group"></i>&nbsp;&nbsp;<span class="nav-label">我的项目</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">C++/C/汇编项目</a></li>
+                        <li><a href="#">Java项目</a></li>
+                        <li><a href="#">Python项目</a></li>
+                        <li><a href="#">Vue项目</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+                    <form role="search" class="navbar-form-custom" method="post" action="#">
+                        <div class="form-group">
+                            <input type="text" placeholder="请输入您想要查找的内容" class="form-control" name="top-search" id="top-search">
+                        </div>
+                    </form>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <span class="m-r-sm text-muted welcome-message"><a href="#" title="返回首页"><i class="fa fa-home"></i></a>欢迎使用博客管理系统</span>
+                    </li>
+                    <li class="dropdown">
+                        <a class ="dropdown-toggle count-info" data-toggle="dropdown" href="#"><i class="fa fa-envelope"><span class="label label-warning">16</span></i></a>
+                        <ul class="dropdown-menu dropdown-messages">
+                            <li>
+                                <div class="dropdown-messages-box">
+                                    <a href="#" class="pull-left"><img alt="image" class="img-circle" src="../static/patterns/image.jpg"></a>
+                                    <div class="media-body">
+                                        <strong>陈昌熙</strong>&nbsp;&nbsp;项目已经处理完结<small class="pull-right">46小时前</small>
+                                        <br>
+                                        <small class="text-muted">3天前 2019.11.13</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="dropdown-messages-box">
+                                    <a href="#" class="pull-left"><img alt="image" class="img-circle" src="../static/patterns/image.jpg"></a>
+                                    <div class="media-body">
+                                        <strong>陈昌熙</strong>&nbsp;&nbsp;项目正在进行中<small class="pull-right">32小时前</small>
+                                        <br>
+                                        <small class="text-muted">前天</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a href="#"><i class="fa fa-envelope"></i><strong>查看所有消息</strong></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#"><i class="fa fa-bell"><span class="label label-primary">8</span></i></a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            <li>
+                                <a href="#"><div><i class="fa fa-envelope fa-fw"></i>您有16条消息<span class="pull-right text-muted small">4分钟前</span></div></a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#"><div><i class="fa fa-qq fa-fw"></i>您有3条新回复<span class="pull-right text-muted small">12分钟前</span></div></a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a href="#"><strong>查看所有</strong><i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="login.html"><i class="fa fa-sign-out">  退出</i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--左侧开始-->
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-sm-4">
+                <h2>我的项目</h2>
+                <ol class="breadcrumb">
+                    <li><a href="#">我的主页</a></li>
+                    <li><strong>个人项目</strong></li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="wrapper wrapper-content animated fadeInUp">
+                    <div class="ibox">
+                        <div class="ibox-title">
+                            <h5>所有项目</h5>
+                            <div class="ibox-tools"><a href="#" class="btn btn-primary btn-xs">创建新项目</a></div>
+                        </div>
+                        <div class="ibox-content">
+                            <div class="row m-b-sm m-t-sm">
+                                <div class="col-md-1">
+                                    <button type="button" id="loading-example-btn" class="btn btn-white btn-sm"><i class="fa fa-refresh"></i>  刷新</button>
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="input-group">
+                                        <input type="text" placeholder="请输入项目名称" class="input-sm form-control">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-sm btn-primary">搜索</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-list">
+                                <table class="table table-hover">
+                                    <tbody>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-primary">进行中</span></td>
+                                        <td class="project-title">
+                                            <a href="#">基于SpringCloud的博客管理系统--学习微服务架构</a>
+                                            <br>
+                                            <small>创建于 2019.11.13</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 10%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 10%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-primary">进行中</span></td>
+                                        <td class="project-title">
+                                            <a href="#">超级马里奥(C++实现)--学习23种设计模式</a>
+                                            <br>
+                                            <small>创建于 2019.10.13</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 2%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 2%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-primary">进行中</span></td>
+                                        <td class="project-title">
+                                            <a href="#">基于深度强化学习的微型无人驾驶系统</a>
+                                            <br>
+                                            <small>创建于 2018.4.21</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 10%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 10%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-default">已取消</span></td>
+                                        <td class="project-title">
+                                            <a href="#">博客管理系统的重构--如何优雅地利用Vue的双向绑定机制</a>
+                                            <br>
+                                            <small>创建于 2019.1.3</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 2%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 1%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-warning">快完成</span></td>
+                                        <td class="project-title">
+                                            <a href="#">基于STM32的智能小车--学习ARM架构与单片机外设</a>
+                                            <br>
+                                            <small>创建于 2019.7.23</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 4%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 4%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                            <img src="../static/patterns/captain.jpeg" class="img-circle" alt="image">
+                                            <img src="../static/patterns/ironman.jpg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-primary">进行中</span></td>
+                                        <td class="project-title">
+                                            <a href="#">基于Mask R-CNN的图像识别系统(阿里云与tf.serving)</a>
+                                            <br>
+                                            <small>创建于 2019.5.13</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 50%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 50%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-primary">进行中</span></td>
+                                        <td class="project-title">
+                                            <a href="#">基于树莓派的语音识别系统--学习树莓派与kaldi</a>
+                                            <br>
+                                            <small>创建于 2019.4.7</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 20%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 20%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                            <img src="../static/patterns/captain.jpeg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-primary">进行中</span></td>
+                                        <td class="project-title">
+                                            <a href="#">ACM刷题--从菜鸟到高手，你必须忍受所有委屈与孤独</a>
+                                            <br>
+                                            <small>创建于 2018.4.7</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 0%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 0%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-primary">进行中</span></td>
+                                        <td class="project-title">
+                                            <a href="#">阅读理解+写作+翻译+新题型</a>
+                                            <br>
+                                            <small>创建于 2018.11.9</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 60%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 60%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-warning">快完成</span></td>
+                                        <td class="project-title">
+                                            <a href="#">高等数学+线性代数+概率论与数理统计</a>
+                                            <br>
+                                            <small>创建于 2019.2.6</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 90%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 90%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="project-status"><span class="label label-danger">已完成</span></td>
+                                        <td class="project-title">
+                                            <a href="#">数据结构+计算机组成原理+操作系统+计算机网络</a>
+                                            <br>
+                                            <small>创建于 2019.1.9</small>
+                                        </td>
+                                        <td class="project-completion">
+                                            <small>当前进度： 100%</small>
+                                            <div class="progress progress-mini">
+                                                <div class="progress-bar" style="width: 100%;"></div>
+                                            </div>
+                                        </td>
+                                        <td class="project-people">
+                                            <img src="../static/patterns/image.jpg" class="img-circle" alt="image">
+                                        </td>
+                                        <td class="project-actions">
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">查看</i></a>
+                                            <a href="#" class="btn btn-white btn-sm"><i class="fa fa-folder">编辑</i></a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="pull-right">
+                    By:<a href=" ">Chen's Blog</a>
+                </div>
+                <div>
+                    <strong>Copyright</strong> BlogAdmin &copy; 2019
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../static/ajax/libs/jquery/jquery.min.js"
+        th:href="@{/ajax/libs/jquery/jquery.min.js}"></script>
+<script src="../static/ajax/libs/bootstrap/bootstrap.min.js"
+        th:href="@{/ajax/libs/bootstrap/bootstrap.min.js}"></script>
+<script src="../static/ajax/libs/metismenu/jquery.metisMenu.js"
+        th:href="@{/ajax/libs/metismenu/jquery.metisMenu.js}"></script>
+<script src="../static/ajax/libs/contextmenu/jquery.contextMenu.min.js"
+        th:href="@{/ajax/libs/contextmenu/jquery.contextMenu.min.js}"></script>
+<script src="../static/ajax/libs/pace/pace.min.js"
+        th:href="@{/ajax/libs/pace/pace.min.js}"></script>
+<script src="../static/ajax/libs/peity/jquery.peity.min.js"
+        th:href="@{/ajax/libs/peity/jquery.peity.min.js}"></script>
+<script src="../static/ajax/libs/peity/peity-demo.js"
+        th:href="@{/ajax/libs/peity/peity-demo.js}"></script>
+<script src="../static/index.js"
+        th:href="@{/index.js}"></script>
+</body>
+</html>
+<!DOCTYPE html>

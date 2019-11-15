@@ -22,7 +22,6 @@ spring:
     view:
       prefix: /templates/ # 视图解析器的路径
       suffix: .html # 视图解析器解析的视图的后缀
-
   #注意，这个很重要，它决定了后缀为xx-data.yml的配置文件会生效
   profiles:
     active: data
