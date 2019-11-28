@@ -4330,7 +4330,10 @@ a.compose-mail {
     padding: 10px;
 }
 .mail-ontact {
-    width: 23%;
+    width: 25%;
+}
+.mail-subject {
+    width: 55%;
 }
 /* PROJECTS */
 .project-people,
@@ -5960,7 +5963,7 @@ body.rtls.top-navigation .footer.fixed {
 }
 .skin-1 .nav-header {
     background: #0e9aef;
-    background: url('../../../patterns/header-profile.png');
+    background: url('patterns/header-profile-skin-1.png');
 }
 .skin-1.mini-navbar .nav-second-level {
     background: #3e495f;

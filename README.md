@@ -1,7 +1,16 @@
-##我的博客
+# 我的博客
 
-这个博客是用SpringBoot搭建起来的，前端用Vue+Webpack，数据库用的是分布式文件存储数据库MongoDB，ORM框架用的是Morphia，
-然后用mysql数据库来进行权限验证，ORM框架用的Mybatis，Web层框架用的是SpringMVC，模版引擎用的是thymeleaf，配合jquery，
-bootstrap等框架进行模版渲染，然后最后是一个大的前端项目，用的是Vue+Webpack，安全权限框架用的是shiro。 用SpringBoot主
-要考虑到后面可以扩展到SpringCloud，做一个完整的大型分布式高并发应用。
+这个博客是用SpringBoot搭建起来的，借鉴了别人的项目，前端分为管理界面和展示界面，管理界面用的是传统的HTML，jquery，
+Ajax，BootStrap，Font-Awesome等等，甚至是别人写的一些脚手架和现成的程序，这里模版引擎用的是Thymeleaf，这是Spring
+Boot默认的模版引擎，和jsp不同，它可以在没有Web服务器的环境下展示，极大地方便了前端调试。然后展示界面用的是Vue+Webpack
+。我一直很欣赏Vue优雅的双向绑定机制，它只关注数据，这点比只关注组件的jquery强，对后端来说，我用了Maven的分模块开发，最
+后聚合的功能，每个子模块负责不同的方面。除了SpringBoot外，日志管理我用的是Log4j，视图层用的是SpringMVC、数据库访问层
+用的MyBatis，权限控制用的Shiro，这四个框架是主要的。然后数据库用的是Mysql，Redis和MongoDB，Redis做一些缓存的功能，比
+如验证码，而Mysql主要是负责登陆注册以及Shiro权限管理的，最重要的是MongoDB，它是一个分布式文件存储数据库，非常适合用来做
+博客数据库，ORM框架是Morphia，这和MyBatis是一个东西但是Web开发的东西实在是太多了，只能是需要了往里面加，分页插件，邮件
+服务，消息服务，还有跨域资源的访问的解决方法，防XSS攻击等等。等到项目做好了，还需要用Maven打个jar包，然后用Docker容器技
+术部署到云端等等，后期可能用SpringCloud的微服务架构，当然我的博客也没那么多人访问，数据也没那么多，没必要上那么高大上的
+东西。
+
+
 

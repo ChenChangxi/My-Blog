@@ -1,10 +1,440 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>
+        欢迎来到博客管理系统
+    </title>
+    <link href="../static/ajax/libs/bootstrap/bootstrap.min.css"
+          th:href="@{/ajax/libs/bootstrap/bootstrap.min.css}" rel="stylesheet"/>
+    <link href="../static/ajax/libs/font-awesome/font-awesome.min.css"
+          th:href="@{/ajax/libs/font-awesome/font-awesome.min.css}" rel="stylesheet"/>
+    <link href="../static/ajax/libs/custom/custom.css" rel="stylesheet"
+          th:href="@{/ajax/libs/custom/custom.css}"/>
+    <link href="../static/ajax/libs/animate/animate.css" rel="stylesheet"
+          th:href="@{/ajax/libs/animate/animate.css}"/>
+    <link href="../static/ajax/libs/style/style.css" rel="stylesheet"
+          th:href="@{/ajax/libs/style/style.css}"/>
 </head>
 <body>
+<div id="wrapper">
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse" >
+            <ul class="nav" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
 
+
+                        <!--<span>
+                             <img src="../static/patterns/image.jpg" class="img-circle">
+                        </span>-->
+
+
+                        <a data-toggle="dropdown" class="dropdown-toggle" href=" ">
+                            <span class="clear">
+                                <span class="block m-t-xs"><strong class="font-bold">TFBoys</strong></span>
+                                <span class="text-muted text-xs block">超级管理员<b class="caret"></b></span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a href="  ">修改头像</a>
+                            </li>
+                            <li><a href="  ">个人资料</a>
+                            </li>
+                            <li><a href="  ">联系我们</a>
+                            </li>
+                            <li><a href="  ">信箱</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="login.html">安全退出</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--这是干啥的-->
+                    <div class="logo-element">
+                        ChenChangxi
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-home"></i>&nbsp;&nbsp;<span class="nav-label">我的主页</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">个人信息</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-comments"></i>&nbsp;&nbsp;<span class="nav-label">我的动态</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">我的动态</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-folder-o"></i>&nbsp;&nbsp;<span class="nav-label">我的博客</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">算法与数据结构</a></li>
+                        <li><a href="#">Java Web技术</a></li>
+                        <li><a href="#">机器学习与深度学习</a></li>
+                        <li><a href="#">单片机与树莓派</a></li>
+                        <li><a href="#">趣闻与杂谈</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-object-group"></i>&nbsp;&nbsp;<span class="nav-label">我的项目</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">C++/C/汇编项目</a></li>
+                        <li><a href="#">Java项目</a></li>
+                        <li><a href="#">Python项目</a></li>
+                        <li><a href="#">Vue项目</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+                    <form role="search" class="navbar-form-custom" method="post" action="#">
+                        <div class="form-group">
+                            <input type="text" placeholder="请输入您想要查找的内容" class="form-control" name="top-search" id="top-search">
+                        </div>
+                    </form>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <span class="m-r-sm text-muted welcome-message"><a href="#" title="返回首页"><i class="fa fa-home"></i></a>欢迎使用博客管理系统</span>
+                    </li>
+                    <li class="dropdown">
+                        <a class ="dropdown-toggle count-info" data-toggle="dropdown" href="#"><i class="fa fa-envelope"><span class="label label-warning">16</span></i></a>
+                        <ul class="dropdown-menu dropdown-messages">
+                            <li>
+                                <div class="dropdown-messages-box">
+                                    <a href="#" class="pull-left"><img alt="image" class="img-circle" src="../static/patterns/image.jpg"></a>
+                                    <div class="media-body">
+                                        <strong>陈昌熙</strong>&nbsp;&nbsp;项目已经处理完结<small class="pull-right">46小时前</small>
+                                        <br>
+                                        <small class="text-muted">3天前 2019.11.13</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="dropdown-messages-box">
+                                    <a href="#" class="pull-left"><img alt="image" class="img-circle" src="../static/patterns/image.jpg"></a>
+                                    <div class="media-body">
+                                        <strong>陈昌熙</strong>&nbsp;&nbsp;项目正在进行中<small class="pull-right">32小时前</small>
+                                        <br>
+                                        <small class="text-muted">前天</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a href="#"><i class="fa fa-envelope"></i><strong>查看所有消息</strong></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#"><i class="fa fa-bell"><span class="label label-primary">8</span></i></a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            <li>
+                                <a href="#"><div><i class="fa fa-envelope fa-fw"></i>您有16条消息<span class="pull-right text-muted small">4分钟前</span></div></a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#"><div><i class="fa fa-qq fa-fw"></i>您有3条新回复<span class="pull-right text-muted small">12分钟前</span></div></a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a href="#"><strong>查看所有</strong><i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="login.html"><i class="fa fa-sign-out">  退出</i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--左侧开始-->
+        <div class="wrapper wrapper-content">
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-content mailbox-content">
+                            <div class="file-manager">
+                                <a href="#" class="btn btn-block btn-primary compose-mail">写博客</a>
+                                <div class="space-25"></div>
+                                <h5>文件夹</h5>
+                                <ul class="folder-list m-b-md" style="padding: 0">
+                                    <li><a href="#"> <i class="fa fa-inbox"></i> 我的博客 <span class="label label-warning pull-right">30</span></a></li>
+                                    <li><a href="#"> <i class="fa fa-envelope-o"></i> 我的收藏 <span class="label label-default pull-right">10</span></a></li>
+                                    <li><a href="#"> <i class="fa fa-certificate"></i> 重要 <span class="label label-danger pull-right">5</span></a></li>
+                                    <li><a href="#"> <i class="fa fa-file-text-o"></i> 未完成 <span class="label label-info pull-right">2</span></a></li>
+                                    <li><a href="#"> <i class="fa fa-trash-o"></i> 垃圾箱 <span class="label label-inverse pull-right">5</span></a></li>
+                                </ul>
+                                <h5>分类</h5>
+                                <ul class="category-list" style="padding: 0">
+                                    <li><a href="#"><i class="fa fa-circle text-navy"></i> 算法与数据结构 </a></li>
+                                    <li><a href="#"><i class="fa fa-circle text-danger"></i> Java Web技术 </a></li>
+                                    <li><a href="#"><i class="fa fa-circle text-primary"></i> 机器学习与深度学习<span class="fa fa-star pull-right"></span></a></li>
+                                    <li><a href="#"><i class="fa fa-circle text-info"></i> 单片机与树莓派 </a></li>
+                                    <li><a href="#"><i class="fa fa-circle text-warning"></i> 趣闻与杂谈 </a></li>
+                                </ul>
+                                <h5 class="tag-title">标签</h5>
+                                <ul class="tag-list" style="padding: 0">
+                                    <li><a href="#"><i class="fa fa-tag"></i> TensorFlow </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> 机器学习 </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> 深度学习 </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> 计算机视觉 </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> 自然语言处理 </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> OpenCV </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> 数学 </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> 语音识别 </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> Scikit-Learn </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> Python </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> 语音识别 </a></li>
+                                    <li><a href="#"><i class="fa fa-tag"></i> Nvidia与CUDA</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-9 animated fadeInRight">
+                    <div class="mail-box-header">
+                        <form method="get" action="#" class="pull-right mail-search">
+                            <div class="input-group">
+                                <input type="text" class="form-control input-sm" name="search" placeholder="搜索博客标题，正文等">
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-sm btn-primary">搜索</button>
+                                </div>
+                            </div>
+                        </form>
+                        <h2>我的博客</h2>
+                        <div class="mail-tools tooltip-demo m-t-md">
+                            <button class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="left" title="刷新博客列表"><i class="fa fa-refresh"> 刷新 </i></button>
+                            <button class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="标为浏览一次"><i class="fa fa-eye"></i></button>
+                            <button class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="标为重要"><i class="fa fa-exclamation"></i></button>
+                            <button class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="标为删除博客"><i class="fa fa-trash-o"></i></button>
+                            <div class="btn-group pull-right">
+                                <button class="btn btn-white btn-sm"><i class="fa fa-arrow-left"></i></button>
+                                <button class="btn btn-white btn-sm"><i class="fa fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mail-box">
+                        <table class="table table-hover table-mail">
+                            <tbody>
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>概率图模型与马尔可夫随机场（一）</strong></a>
+                                    <span class="label label-warning pull-right">还没写完</span>
+                                    <span class="label label-danger pull-right">重要</span>
+                                </td>
+                                <td class="mail-ontact"><a href="#">机器学习</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2019.10.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks" checked></td>
+                                <td class="mail-subject"><a href="#"><strong>如何使用Jupyter-Notebook </strong></a>
+                                    <span class="label label-warning pull-right">还没写完</span>
+                                </td>
+                                <td class="mail-ontact"><a href="#">Jupyter-Notebook</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2019.9.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>Mask R-CNN模型原理分析（一）</strong></a>
+                                    <span class="label label-danger pull-right">重要</span>
+                                </td>
+                                <td class="mail-ontact"><a href="#">计算机视觉</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2019.8.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>词嵌入模型在NLP中的应用（一）</strong></a></td>
+                                <td class="mail-ontact"><a href="#">自然语言处理</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2019.7.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>Numpy,Scipy和Matplotlib详解（一）</strong></a></td>
+                                <td class="mail-ontact"><a href="#">Python</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2019.6.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>生成对抗网络原理与实现（一）</strong></a></td>
+                                <td class="mail-ontact"><a href="#">深度学习</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2019.5.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>图神经网络原理与实现（一）</strong></a>
+                                    <span class="label label-danger pull-right">重要</span>
+                                </td>
+                                <td class="mail-ontact"><a href="#">深度学习</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2019.4.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>kaldi语音识别工具学习（一）</strong></a></td>
+                                <td class="mail-ontact"><a href="#">语音识别</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2019.3.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>如何用Opencv实现人脸识别（一）</strong></a>
+                                    <span class="label label-warning pull-right">还没写完</span>
+                                    <span class="label label-danger pull-right">重要</span>
+                                </td>
+                                <td class="mail-ontact"><a href="#">OpenCV</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2019.2.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>tf.contrib库详解（针对于1.x）（一）</strong></a>
+                                    <span class="label label-warning pull-right">还没写完</span>
+                                </td>
+                                <td class="mail-ontact"><a href="#">TensorFlow</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2019.1.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>tensorflow如何实施分布式训练（一）</strong></a></td>
+                                <td class="mail-ontact"><a href="#">TensorFlow</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2018.11.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>如何在tensorflow中使用动态图来训练模型</strong></a></td>
+                                <td class="mail-ontact"><a href="#">TensorFlow</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2018.10.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>DFSMN模型详解（一）</strong></a></td>
+                                <td class="mail-ontact"><a href="#">语音识别</a></td>
+                                <td class=""></td>
+                                <td class="text-right mail-date">2018.9.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>如何使用scikit-learn（一）</strong></a>
+                                    <span class="label label-warning pull-right">还没写完</span>
+                                </td>
+                                <td class="mail-ontact"><a href="#">Scikit-Learn</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2018.8.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>傅立叶变换与拉普拉斯变换（一）</strong></a></td>
+                                <td class="mail-ontact"><a href="#">数学基础</a></td>
+                                <td class=""></td>
+                                <td class="text-right mail-date">2018.7.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>那些语音识别的著名数据集--thchs30详解（一）</strong></a></td>
+                                <td class="mail-ontact"><a href="#">语音识别</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2018.6.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>如何在CentOS7.6上安装Nvidia和CUDA驱动</strong></a></td>
+                                <td class="mail-ontact"><a href="#">Nvidia和CUDA</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2018.5.15</td>
+                            </tr>
+
+                            <tr class="read">
+                                <td class="check-mail"><input type="checkbox" class="i-checks"></td>
+                                <td class="mail-subject"><a href="#"><strong>Python中的yield关键字详解</strong></a></td>
+                                <td class="mail-ontact"><a href="#">Python</a></td>
+                                <td class=""><i class="fa fa-paperclip"></i></td>
+                                <td class="text-right mail-date">2018.11.15</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="pull-right">
+                    By:<a href=" ">Chen's Blog</a>
+                </div>
+                <div>
+                    <strong>Copyright</strong> BlogAdmin &copy; 2019
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../static/ajax/libs/jquery/jquery.min.js"
+        th:href="@{/ajax/libs/jquery/jquery.min.js}"></script>
+<script src="../static/ajax/libs/bootstrap/bootstrap.min.js"
+        th:href="@{/ajax/libs/bootstrap/bootstrap.min.js}"></script>
+<script src="../static/ajax/libs/metismenu/jquery.metisMenu.js"
+        th:href="@{/ajax/libs/metismenu/jquery.metisMenu.js}"></script>
+<script src="../static/ajax/libs/slimscroll/jquery.slimscroll.min.js"
+        th:href="@{/ajax/libs/slimscroll/jquery.slimscroll.min.js}"></script>
+<script src="../static/ajax/libs/custom/hplus.js"
+        th:href="@{/ajax/libs/custom/hplus.js}"></script>
+<script src="../static/ajax/libs/pace/pace.min.js"
+        th:href="@{/ajax/libs/pace/pace.min.js}"></script>
+<script src="../static/ajax/libs/custom/icheck.min.js"
+        th:href="@{/ajax/libs/custom/icheck.min.js}"></script>
+<script>
+    $(document).ready(function () {
+        $('.i-checks').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+        });
+    });
+</script>
 </body>
 </html>
+<!DOCTYPE html>
