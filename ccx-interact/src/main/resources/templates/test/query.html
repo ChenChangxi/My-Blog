@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>查询</title>
+    <script src="../../static/ajax/libs/jquery/jquery.min.js"
+            th:href="@{/ajax/libs/jquery/jquery.min.js}"></script>
+</head>
+<body>
+<h1>这里是查询页面</h1>
+<br>
+<div>
+    <form method="post" onclick="ajax()">
+        <input type="submit" onclick="ajax()" value="提交">
+    </form>
+</div>
+
+<script type="text/javascript">
+    function ajax() {
+        $.ajax({
+            url:'query',
+            dataType:'json'
+        });
+    }
+</script>
+</body>
+</html>

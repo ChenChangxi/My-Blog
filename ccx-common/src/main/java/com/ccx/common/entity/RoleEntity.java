@@ -1,5 +1,6 @@
 package com.ccx.common.entity;
 
+import java.math.BigInteger;
 import java.util.Set;
 
 /**
@@ -11,17 +12,19 @@ import java.util.Set;
 
 public class RoleEntity {
 
-    private String roleId;
+    private BigInteger roleId;  //数据库中就是bigint
 
     private String roleName;
 
+    private String description;
+
     private Set<PermissionEntity> permissions;
 
-    public String getRoleId() {
+    public BigInteger getRoleId() {
         return roleId;
     }
 
-    public void setRoleId(String roleId) {
+    public void setRoleId(BigInteger roleId) {
         this.roleId = roleId;
     }
 
@@ -31,6 +34,14 @@ public class RoleEntity {
 
     public void setRoleName(String roleName) {
         this.roleName = roleName;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public Set<PermissionEntity> getPermissions() {

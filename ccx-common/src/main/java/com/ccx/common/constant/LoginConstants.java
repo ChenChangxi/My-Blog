@@ -9,9 +9,11 @@ package com.ccx.common.constant;
 
 public class LoginConstants {
 
-    public static final String LOGIN="login";
+    public static final String LOGIN="test/login";
 
-    public static final String ERROR="error";
+    public static final String ERROR="test/error";
 
-    public static final String SUCCESS="index";
+    public static final String SUCCESS="test/result";
+
+    public static final String QUERY="test/query";
 }

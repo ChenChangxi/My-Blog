@@ -1,16 +1,24 @@
 package com.ccx.interact.controller.login;
 
 import com.ccx.common.constant.LoginConstants;
+import com.ccx.common.entity.UserEntity;
+import com.ccx.system.service.shiroservice.LoginService;
+import org.apache.catalina.User;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.ExcessiveAttemptsException;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.apache.shiro.subject.Subject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+
+import java.util.Set;
 
 /**
  * @program: com.ccx.system.controller.login
@@ -24,11 +32,17 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class LoginController {
 
+    @Autowired
+    private LoginService loginService;
+
     @RequestMapping("login")
     public ModelAndView login(@RequestParam("username") String username,
                               @RequestParam("password") String password) {
-        UsernamePasswordToken token=new UsernamePasswordToken();
+        UsernamePasswordToken token=new UsernamePasswordToken(username,password);
         Subject subject = SecurityUtils.getSubject();
+
+        System.out.println("============login===========");
+
         try {
 
             subject.login(token);
@@ -47,9 +61,31 @@ public class LoginController {
             ModelAndView model=new ModelAndView(LoginConstants.ERROR);
             model.addObject("message","您的登陆次数过多");
         }
+        //用户信息保存在会话中，用户访问服务器，时刻有效
+        UserEntity user = loginService.getUserByUserName(username);
+        subject.getSession().setAttribute("user",user);
+        return new ModelAndView(LoginConstants.QUERY);
+    }
 
+    @RequestMapping("query")
+    @RequiresRoles(value={"admin"})
+    @RequiresPermissions(value={"permit"})
+    public ModelAndView index() {
+        Subject subject = SecurityUtils.getSubject();
+        UserEntity user=(UserEntity)subject.getSession().getAttribute("user");
+        ModelAndView model = new ModelAndView(LoginConstants.SUCCESS);
+        model.addObject("username",user.getUserName());
+        model.addObject("password",user.getPassWord());
+        return model;
+    }
 
-
-        return new ModelAndView("success");
+    @RequestMapping("register")
+    public ModelAndView register(@RequestParam("username") String username,
+                                 @RequestParam("password") String password) {
+        UserEntity user = new UserEntity();
+        user.setUserName(username);
+        user.setPassWord(password);
+        loginService.insertUser(user);
+        return new ModelAndView(LoginConstants.LOGIN);
     }
 }

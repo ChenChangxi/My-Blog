@@ -24,21 +24,21 @@
     </description>
 
     <dependencies>
+
         <dependency>
             <groupId>com.ccx</groupId>
             <artifactId>framework</artifactId>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-starter-web</artifactId>-->
-            <!--<exclusions>-->
-                <!--<exclusion>-->
-                    <!--<groupId>org.slf4j</groupId>-->
-                    <!--<artifactId>slf4j-log4j12</artifactId>-->
-                <!--</exclusion>-->
-            <!--</exclusions>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>com.ccx</groupId>
+            <artifactId>common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ccx</groupId>
+            <artifactId>system</artifactId>
+        </dependency>
 
         <!--选择thymeleag作为整个前后端交互的模版引擎，这里一定要排除
         logback，否则会报错，因为thymeleaf底层是依赖logback功能的-->

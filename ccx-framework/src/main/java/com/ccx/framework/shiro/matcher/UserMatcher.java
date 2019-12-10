@@ -6,6 +6,8 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.authc.credential.SimpleCredentialsMatcher;
 import org.apache.shiro.crypto.hash.Sha384Hash;
 
+import javax.annotation.PostConstruct;
+
 /**
  * @program: com.ccx.framework.shiro.matcher
  * @description: 它是密码验证的器，这里我们用散列算法对密码进行加密和验证

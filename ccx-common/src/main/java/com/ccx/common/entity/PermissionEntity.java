@@ -1,5 +1,6 @@
 package com.ccx.common.entity;
 
+import java.math.BigInteger;
 import java.util.Set;
 
 /**
@@ -11,15 +12,17 @@ import java.util.Set;
 
 public class PermissionEntity {
 
-    private String permissionId;
+    private BigInteger permissionId;  //数据库中就是bigint
 
     private String permissionName;
 
-    public String getPermissionId() {
+    private String description;
+
+    public BigInteger getPermissionId() {
         return permissionId;
     }
 
-    public void setPermissionId(String permissionId) {
+    public void setPermissionId(BigInteger permissionId) {
         this.permissionId = permissionId;
     }
 
@@ -29,5 +32,13 @@ public class PermissionEntity {
 
     public void setPermissionName(String permissionName) {
         this.permissionName = permissionName;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

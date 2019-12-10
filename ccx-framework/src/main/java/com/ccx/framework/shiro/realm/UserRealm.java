@@ -40,13 +40,13 @@ public class UserRealm extends AuthorizingRealm {
         //获取用户名
         String username = (String) principalCollection.getPrimaryPrincipal();
         //查询用户信息
-        UserEntity user = loginService.getUserByName(username);
+        UserEntity user = loginService.getUserByUserName(username);
         //为用户添加权限
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
-        for(RoleEntity role:user.getRoles()) {
+        for(RoleEntity role:loginService.getRoleByUserName(username)) {
             //添加角色
             authorizationInfo.addRole(role.getRoleName());
-            for(PermissionEntity permission:role.getPermissions()) {
+            for(PermissionEntity permission:loginService.getPermissionByUserName(username)) {
                 //添加权限
                 authorizationInfo.addStringPermission(permission.getPermissionName());
             }
@@ -71,7 +71,7 @@ public class UserRealm extends AuthorizingRealm {
         //获取用户名
         String username=authenticationToken.getPrincipal().toString();
         //获取用户信息
-        UserEntity user = loginService.getUserByName(username);
+        UserEntity user = loginService.getUserByUserName(username);
         //是否查到用户
         if(user == null) {
             return null;

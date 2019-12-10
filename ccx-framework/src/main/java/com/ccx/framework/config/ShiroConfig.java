@@ -4,9 +4,13 @@ import com.ccx.common.constant.LoginConstants;
 import com.ccx.framework.shiro.matcher.UserMatcher;
 import com.ccx.framework.shiro.realm.UserRealm;
 import org.apache.shiro.mgt.SecurityManager;
+import org.apache.shiro.session.mgt.DefaultSessionManager;
+import org.apache.shiro.session.mgt.SessionManager;
+import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -32,6 +36,15 @@ public class ShiroConfig {
         return new UserMatcher();
     }
 
+    //默认的会话管理器
+    @Bean("sessionManager")
+    public SessionManager sessionManager() {
+        DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
+        //去掉JSESSIONID
+        sessionManager.setSessionIdUrlRewritingEnabled(false);
+        return sessionManager;
+    }
+
     //将自定义的realm注入容器中
     @Bean("UserRealm")
     public UserRealm userRealm(@Qualifier("UserMatcher") UserMatcher userMatcher) {
@@ -42,9 +55,11 @@ public class ShiroConfig {
 
     //自定义安全管理器
     @Bean("SecurityManager")
-    public SecurityManager securityManager(@Qualifier("UserRealm") UserRealm userRealm) {
+    public SecurityManager securityManager(@Qualifier("UserRealm") UserRealm userRealm,
+                                           @Qualifier("sessionManager")SessionManager sessionManager) {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         securityManager.setRealm(userRealm);
+        securityManager.setSessionManager(sessionManager);
         return securityManager;
     }
 
@@ -66,15 +81,13 @@ public class ShiroConfig {
         Map<String,String> filterChain = new LinkedHashMap<String, String>();
 
         filterChain.put("/logout","logout");    //Shiro会自动帮你重定向到login页面
-        filterChain.put("/static/**","anno");  //静态资源不进行拦截，这个地方别人可以偷你的前端页面
-        filterChain.put("/register","anno");  //任何人都可以注册
+        filterChain.put("/test/login","authc");  //静态资源不进行拦截，这个地方别人可以偷你的前端页面
         filterChain.put("/**","authc");   //对于前面都不匹配的请求，需要验证，必须放在链中的最后
 
         //默认的登陆界面
         shiroFilterFactoryBean.setLoginUrl(LoginConstants.LOGIN);
-        shiroFilterFactoryBean.setSuccessUrl(LoginConstants.SUCCESS);
+        shiroFilterFactoryBean.setSuccessUrl(LoginConstants.QUERY);
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChain);
-
 
         return shiroFilterFactoryBean;
     }

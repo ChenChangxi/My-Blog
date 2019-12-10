@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <script src="../../static/ajax/libs/jquery/jquery.min.js"
+            th:href="@{/ajax/libs/jquery/jquery.min.js}"></script>
+</head>
+<body>
+<h1>这里是登陆页面</h1>
+<br>
+<div>
+    <form method="post" onclick="ajax()">
+        <input type="text" name="username" id="username">
+        <input type="text" name="password" id="password">
+        <input type="submit" onclick="ajax()" value="提交">
+        <a href="login.html">注册</a>
+    </form>
+</div>
+
+<script type="text/javascript">
+    function ajax() {
+        $.ajax({
+            url:'login',
+            dataType:'json'
+        });
+    }
+</script>
+</body>
+</html>
