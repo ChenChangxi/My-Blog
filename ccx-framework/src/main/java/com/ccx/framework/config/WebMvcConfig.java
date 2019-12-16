@@ -33,6 +33,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
                 .addResourceLocations("classpath:static/patterns/");
         registry.addResourceHandler("/ajax/libs/**")
                 .addResourceLocations("classpath:static/ajax/libs/");
+        registry.addResourceHandler("/test/**")
+                .addResourceLocations("classpath:/templates/test/");
     }
 
     //添加拦截器

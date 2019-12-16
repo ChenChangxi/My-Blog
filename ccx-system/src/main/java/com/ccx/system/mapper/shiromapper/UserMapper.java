@@ -15,18 +15,20 @@ import java.util.Set;
 @Mapper
 public interface UserMapper {
 
-    @Insert("INSERT INTO USER VALUS(" +
-            "#{user.userName},#{user.password},#{user.salt},#{user.description})")
-    public void insertUser(@Param("user") UserEntity user);
+    @Insert("INSERT INTO USER(USER_NAME,PASSWORD,SALT,DESCRIPTIONS)" +
+            "VALUES(#{username},#{password},#{salt},#{description})")
+    public void insertUser(@Param("username") String userName,
+                           @Param("password") String passWord,
+                           @Param("salt") String salt,
+                           @Param("description") String description);
 
     @Select("SELECT * FROM USER WHERE USER_NAME=#{username}")
     @Results(value = {
             @Result(column = "USER_ID",property = "userId"),
             @Result(column = "USER_NAME",property = "userName"),
             @Result(column = "PASSWORD",property = "password"),
-            @Result(column = "DESCRIPTION",property = "description"),
+            @Result(column = "DESCRIPTIONS",property = "description"),
             @Result(column = "SALT",property = "salt")
     })
-    public UserEntity selectByName(String username);
-
+    public UserEntity selectByUserName(@Param("username") String userName);
 }

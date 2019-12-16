@@ -34,31 +34,58 @@ public class LoginServiceImp implements LoginService {
     @Autowired
     private PermissionMapper permissionMapper;
 
-    //密码用哈希散列算法加密
-    public void insertUser(UserEntity user) {
+    //密码用哈希散列算法加密，插入一个用户
+    public void setUser(UserEntity user) {
+        String userName=user.getUserName();
         String sha384Hex=new Sha384Hash(user.getPassWord()).toBase64();
-        user.setPassWord(sha384Hex);
-        userMapper.insertUser(user);
+        String salt=user.getSalt();
+        String description=user.getDescription();
+        userMapper.insertUser(userName,sha384Hex,salt,description);
+        for(String roleName:user.getRoles()) {
+            roleMapper.insertUserRole(userName,roleName);
+        }
+    }
+
+    public void setRole(RoleEntity role) {
+        String roleName=role.getRoleName();
+        String description=role.getDescription();
+        roleMapper.insertRole(roleName,description);
+        for(String permissionName:role.getPermissions()) {
+            permissionMapper.insertRolePermission(roleName,permissionName);
+        }
+    }
+
+    public void setPermission(PermissionEntity permission) {
+        String permissionName=permission.getPermissionName();
+        String description=permission.getDescription();
+        permissionMapper.insertPermission(permissionName,description);
     }
 
     public UserEntity getUserByUserName(String userName) {
-        return userMapper.selectByName(userName);
+        UserEntity user=userMapper.selectByUserName(userName);
+        Set<String> roleNames=roleMapper.selectByUserName(userName);
+        user.setRoles(roleNames);
+        return user;
     }
 
-    public Set<RoleEntity> getRoleByUserName(String username) {
-        return roleMapper.selectByName(username);
+    public RoleEntity getRoleByRoleName(String roleName) {
+        RoleEntity role=roleMapper.selectByRoleName(roleName);
+        Set<String> permissions=permissionMapper.selectByRoleName(roleName);
+        role.setPermissions(permissions);
+        return role;
     }
 
-    public Set<PermissionEntity> getPermissionByUserName(String userName) {
+    public PermissionEntity getPermissionByPermissionName(String permissionName) {
+        return permissionMapper.selectByPermissionName(permissionName);
+    }
 
-        Set<PermissionEntity> permissionSet = new HashSet<PermissionEntity>();
-        Set<RoleEntity> roles = roleMapper.selectByName(userName);
-        for(RoleEntity role:roles) {
-            Set<PermissionEntity> permissions = permissionMapper.selectByRoleName(role.getRoleName());
-            for(PermissionEntity permission:permissions) {
-                permissionSet.add(permission);
-            }
+    public Set<String> getPermissionsByUserName(String userName) {
+        Set<String> permissionNames=new HashSet<String>();
+        Set<String> roleNames=roleMapper.selectByUserName(userName);
+        for(String roleName:roleNames) {
+            Set<String> permissionName=permissionMapper.selectByRoleName(roleName);
+            permissionNames.addAll(permissionNames);
         }
-        return permissionSet;
+        return permissionNames;
     }
 }

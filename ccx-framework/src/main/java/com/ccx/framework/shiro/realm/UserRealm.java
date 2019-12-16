@@ -43,12 +43,13 @@ public class UserRealm extends AuthorizingRealm {
         UserEntity user = loginService.getUserByUserName(username);
         //为用户添加权限
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
-        for(RoleEntity role:loginService.getRoleByUserName(username)) {
+        for(String roleName:user.getRoles()) {
             //添加角色
-            authorizationInfo.addRole(role.getRoleName());
-            for(PermissionEntity permission:loginService.getPermissionByUserName(username)) {
+            authorizationInfo.addRole(roleName);
+            RoleEntity role = loginService.getRoleByRoleName(roleName);
+            for(String permissionName:role.getPermissions()) {
                 //添加权限
-                authorizationInfo.addStringPermission(permission.getPermissionName());
+                authorizationInfo.addStringPermission(permissionName);
             }
         }
         return authorizationInfo;

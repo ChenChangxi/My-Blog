@@ -22,7 +22,7 @@ public class UserEntity extends BaseEntity{
 
     private String description;
 
-    private Set<RoleEntity> roles;
+    private Set<String> roles;
 
     public BigInteger getUserId() {
         return userId;
@@ -64,11 +64,11 @@ public class UserEntity extends BaseEntity{
         this.description = description;
     }
 
-    public Set<RoleEntity> getRoles() {
+    public Set<String> getRoles() {
         return roles;
     }
 
-    public void setRoles(Set<RoleEntity> roles) {
+    public void setRoles(Set<String> roles) {
         this.roles = roles;
     }
 }

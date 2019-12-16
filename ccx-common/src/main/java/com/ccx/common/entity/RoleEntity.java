@@ -18,7 +18,7 @@ public class RoleEntity {
 
     private String description;
 
-    private Set<PermissionEntity> permissions;
+    private Set<String> permissions;
 
     public BigInteger getRoleId() {
         return roleId;
@@ -44,11 +44,11 @@ public class RoleEntity {
         this.description = description;
     }
 
-    public Set<PermissionEntity> getPermissions() {
+    public Set<String> getPermissions() {
         return permissions;
     }
 
-    public void setPermissions(Set<PermissionEntity> permissions) {
+    public void setPermissions(Set<String> permissions) {
         this.permissions = permissions;
     }
 }

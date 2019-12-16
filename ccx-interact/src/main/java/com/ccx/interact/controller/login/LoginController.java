@@ -85,7 +85,7 @@ public class LoginController {
         UserEntity user = new UserEntity();
         user.setUserName(username);
         user.setPassWord(password);
-        loginService.insertUser(user);
+        loginService.setUser(user);
         return new ModelAndView(LoginConstants.LOGIN);
     }
 }

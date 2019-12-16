@@ -15,19 +15,24 @@ import java.util.Set;
 @Mapper
 public interface PermissionMapper {
 
-    @Insert("INSERT INTO PERMISSION VALUES(" +
-            "#{permission.permissionName},#{permission.description})")
-    public void insertPermission(@Param("permission") PermissionEntity permission);
+    @Insert("INSERT INTO PERMISSION(PERMISSION_NAME,DESCRIPTIONS) VALUES (#{permissionname},#{description})")
+    public void insertPermission(@Param("permissionname") String permissionName,
+                                 @Param("description") String description);
 
-    @Select("SELECT PERMISSION_ID,PERMISSION_NAME,DESCRIPTION FROM PERMISSION" +
-            "WHERE PERMISSION_ID IN (SELECT PERMISSION_ID FROM ROLE_PERMISSION" +
-            "WHERE ROLE_ID IN (SELECT ROLE_ID FROM ROLE WHERE ROLE_NAME=#{roleName}))")
+    @Insert("INSERT INTO ROLE_PERMISSION VALUES(" +
+            "(SELECT ROLE_ID FROM ROLE WHERE ROLE_NAME=#{rolename})," +
+            "(SELECT PERMISSION_ID FROM PERMISSION WHERE PERMISSION_NAME=#{permissionname}))")
+    public void insertRolePermission(@Param("rolename") String roleName,
+                                     @Param("permissionname") String permissionName);
+
+    @Select("SELECT * FROM PERMISSION WHERE PERMISSION_NAME=#{permissionname}")
     @Results(value = {
             @Result(column = "PERMISSION_ID", property = "permissionId"),
             @Result(column = "PERMISSION_NAME", property = "permissionName"),
-            @Result(column = "DESCRIPTION",property = "description")
-
+            @Result(column = "DESCRIPTIONS",property = "description")
     })
-    public Set<PermissionEntity> selectByRoleName(String roleName);
+    public PermissionEntity selectByPermissionName(@Param("permissionname") String roleName);
 
+    @Select("SELECT PERMISSION_NAME FROM ROLE,ROLE_PERMISSION,PERMISSION WHERE ROLE_NAME={rolename}")
+    public Set<String> selectByRoleName(@Param("rolename") String roleName);
 }

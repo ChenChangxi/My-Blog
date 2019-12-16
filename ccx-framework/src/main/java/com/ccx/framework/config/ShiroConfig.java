@@ -10,6 +10,7 @@ import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.apache.shiro.web.servlet.SimpleCookie;
 import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -36,12 +37,21 @@ public class ShiroConfig {
         return new UserMatcher();
     }
 
+    @Bean("SimpleCookie")
+    public SimpleCookie simpleCookie() {
+        SimpleCookie simpleCookie=new SimpleCookie();
+        simpleCookie.setName("cookie");   //不设置这个的话servlet和shiro默认的cookie会发生冲突
+        return simpleCookie;
+    }
+
     //默认的会话管理器
-    @Bean("sessionManager")
-    public SessionManager sessionManager() {
+    @Bean("SessionManager")
+    public DefaultWebSessionManager sessionManager(@Qualifier("SimpleCookie")SimpleCookie simpleCookie) {
         DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
         //去掉JSESSIONID
         sessionManager.setSessionIdUrlRewritingEnabled(false);
+        sessionManager.setSessionIdCookie(simpleCookie);
+        sessionManager.setSessionIdCookieEnabled(true);
         return sessionManager;
     }
 
@@ -56,7 +66,7 @@ public class ShiroConfig {
     //自定义安全管理器
     @Bean("SecurityManager")
     public SecurityManager securityManager(@Qualifier("UserRealm") UserRealm userRealm,
-                                           @Qualifier("sessionManager")SessionManager sessionManager) {
+                                           @Qualifier("SessionManager")SessionManager sessionManager) {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         securityManager.setRealm(userRealm);
         securityManager.setSessionManager(sessionManager);
@@ -81,7 +91,7 @@ public class ShiroConfig {
         Map<String,String> filterChain = new LinkedHashMap<String, String>();
 
         filterChain.put("/logout","logout");    //Shiro会自动帮你重定向到login页面
-        filterChain.put("/test/login","authc");  //静态资源不进行拦截，这个地方别人可以偷你的前端页面
+        filterChain.put("/test/**","anon");  //静态资源不进行拦截，这个地方别人可以偷你的前端页面
         filterChain.put("/**","authc");   //对于前面都不匹配的请求，需要验证，必须放在链中的最后
 
         //默认的登陆界面
